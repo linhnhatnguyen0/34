@@ -1,7 +1,7 @@
 ---
 title: iPhone XR và iPhone X: Đâu là chiếc iPhone tốt nhất dành cho bạn?
 date: 2019-07-20 20:00:00 +07:00
-permalink: "/2018/10/29/so-sanh-mot-chut-ve-iphone.html"
+permalink: "/2019/07/20/so-sanh-mot-chut-ve-iphone.html"
 layout: post
 excerpt: Chia sẻ từ founder dự án.
 ---
