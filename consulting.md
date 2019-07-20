@@ -1,19 +1,16 @@
 ---
-title: Tư vấn
+title: Trò chuyện
 permalink: "/consulting/"
 layout: default
 ---
 
-## Thầy Bá Phong có hiểu biết, kinh nghiệm về những lĩnh vực sau để có thể tư vấn chuyên sâu:
+## Nơi tát cả mọi người trò chuyện với nhau về nước Pháp và tất cả những thứ liên quan đến tiếng pháp
 <p> </p>
 
-1. Thiết lập ước mơ, mục tiêu, hướng nghiệp cho học sinh 
-2. Xây dựng và phát triển thương hiệu cá nhân
-3. Xây dựng và phát triển thương hiệu doanh nghiệp
-4. Các hoạt động nghiên cứu thị trường, truyền thông, marketing
-5. Tư vấn về thấu hiểu lộ trình tâm của khách hàng
+1. Ước mơ du học dù giàu hay nghèo
+2. Cuộc sống du học ở pháp
+3. Liệu nước pháp có đáng để du học hay không?
 
 ### Liên hệ:
 
-- Email: <a href="mailto:baphong80@gmail.com" target="_blank">baphong80@gmail.com</a>
-- Telegram: <a href="https://t.me/baphong" target="_blank">@baphong</a>
+- Email: <a href="mailto:antonlinh2002@gmail.com" target="_blank">antonlinh2002@gmail.com</a>
