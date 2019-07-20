@@ -58,4 +58,5 @@ Sự khác biệt lớn nhất có thể nhìn thấy bên ngoài chính là h�
 Cả 2 mẫu iPhone đều có những ưu thế riêng. iPhone X có thiết kế tinh tế hơn, màn hình đẹp hơn và nhiều camera hơn so với iPhone XR.
 
 Trong khi đó, mẫu iPhone giá rẻ của Apple có hiệu suất tốt hơn, màn hình lớn hơn, pin tốt hơn và nhiều tùy chọn màu sắc hơn để lựa chọn.
+
 Source: Báo 24h.com.vn
