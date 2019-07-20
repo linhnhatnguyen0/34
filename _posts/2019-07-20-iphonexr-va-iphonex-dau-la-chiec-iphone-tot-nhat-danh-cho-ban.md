@@ -23,10 +23,7 @@ Apple cung cấp tiêu chuẩn chống nước và bụi IP67 trên cả 2 mẫu
 Thay vì màn hình OLED như iPhone X, Apple chỉ sử dụng công nghệ LCD trên iPhone XR với một tên gọi mới là Liquid Retina.
 
 Mặc dù Apple tuyên bố màn LCD của iPhone XR là tiên tiến nhất từng thấy trên điện thoại thông minh, nhưng cảm nhận cá nhân thì nó vẫn cung cấp trải nghiệm xem kém hơn so với màn AMOLED của iPhone X.
-<div class="media">
-  <img src="/assets/img/2.jpg">
-  <p class="caption">Blockchain có phải là 1 giải pháp đang đi tìm vấn đề?</p>
-</div>
+
 
 ### Đặc điểm và tính năng
 
