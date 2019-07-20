@@ -1,5 +1,5 @@
 ---
-title: iPhone XR và iPhone X: Đâu là chiếc iPhone tốt nhất dành cho bạn?
+title: Tấn công
 date: 2018-11-26 07:00:00 +07:00
 image: "/assets/img/hashrate.jpg"
 excerpt: 51% của cái gì và gây hại như thế nào.
