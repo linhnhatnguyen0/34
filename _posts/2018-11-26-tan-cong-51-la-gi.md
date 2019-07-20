@@ -1,11 +1,11 @@
 ---
-title: Tấn công 51% là gì?
+title: Tấn công 
 date: 2018-11-26 07:00:00 +07:00
 image: "/assets/img/hashrate.jpg"
 excerpt: 51% của cái gì và gây hại như thế nào.
 ---
 
-Giá trị của blockchain nằm ở chỗ nó loại bỏ sự độc quyền trong việc _thay đổi_ dữ liệu chung. Tuy nhiên, khi có 1 đối tượng hoặc 1 nhóm đối tượng liên kết với nhau để chiếm hơn 50% quyền thay đổi dữ liệu thì sự dân chủ - giá trị cốt lõi của blockchain - bị lung lay tận gốc rễ.
+Giáain nằm ở chỗ nó loại bỏ sự độc quyền trong việc _thay đổi_ dữ liệu chung. Tuy nhiên, khi có 1 đối tượng hoặc 1 nhóm đối tượng liên kết với nhau để chiếm hơn 50% quyền thay đổi dữ liệu thì sự dân chủ - giá trị cốt lõi của blockchain - bị lung lay tận gốc rễ.
 
 Khái niệm “tấn công 51%” thường được dùng cho các hệ thống:
 - Cấu trúc dữ liệu được sử dụng là blockchain (không phải các cấu trúc hiếm dùng như Tangle, v.v.)
