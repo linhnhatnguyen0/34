@@ -20,7 +20,7 @@ defaults:
     type: pages
   values:
     layout: page
-description: Học để tạo giá trị cho tương lai
+description: LOL Chess không?
 theme: minima
 
 permalink: pretty
