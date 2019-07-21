@@ -1,5 +1,5 @@
 ---
-title: iPhone XR và iPhone X: Đâu là chiếc iPhone tốt nhất dành cho bạn?
+title: So sánh iphone X và iphone XR
 date: 2019-07-20 20:00:00 +07:00
 permalink: "/2019/07/20/so-sanh-iphonex-va-iphonexr.html"
 layout: post
