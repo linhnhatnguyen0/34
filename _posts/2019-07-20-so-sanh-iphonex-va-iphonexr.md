@@ -17,7 +17,10 @@ Kích thước màn hình của iPhone XR lớn hơn iPhone X (6.1 inch so với
 
 Apple cung cấp tiêu chuẩn chống nước và bụi IP67 trên cả 2 mẫu iPhone này cùng khả năng sạc không dây chuẩn Qi.
 
-
+div class="media">
+  <img src="/assets/img/5.jpg">
+  <p class="caption">Blockchain có phải là 1 giải pháp đang đi tìm vấn đề?</p>
+</div>
 ### Màn Hình
 
 Thay vì màn hình OLED như iPhone X, Apple chỉ sử dụng công nghệ LCD trên iPhone XR với một tên gọi mới là Liquid Retina.
