@@ -1,5 +1,5 @@
 ---
-title: SpaceX tiết lộ nguyên nhân tai nạn tàu vũ trụ
+title: SpaceX tiết lộ nguyên nhân nổ tàu
 date: 2018-11-26 07:00:00 +07:00
 
 
