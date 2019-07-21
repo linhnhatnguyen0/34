@@ -5,37 +5,31 @@ date: 2018-11-26 07:00:00 +07:00
 
 ---
 
-### Khi bạn yêu thích những thiết kế mới của iPhone nhưng có hầu bao hạn chế, chắc hẳn bạn sẽ cân nhắc lựa chọn giữa thế hệ cũ sang chảnh như iPhone X hay thế hệ mới bình dân như iPhone XR.
+### Vụ nổ tàu vũ trụ tối tân SpaceX Crew Dragon vừa qua khiến ngành công nghiệp hàng không vũ trụ của Mỹ chấn động. Mới đây, SpaceX cho biết, họ đã tìm ra nguyên dẫn đến vụ tai nạn này.
 
-### Thiết kế và hiển thị
-Có thiết kế tương đồng, nhưng iPhone X dùng khung thép còn iPhone XR là khung nhôm 7000 series. Cho dù bạn lựa chọn sản phẩm nào thì cũng đều không có jack cắm tai nghe 3.5mm.
+Ngày 20/4, tàu vũ trụ hình kén SpaceX Crew Dragon đã bất ngờ phát nổ trong cuộc thử nghiệm định kỳ dưới mặt đất tại Canaveral, Florida, Mỹ. Vụ tai nạn khiến ngành công nghiệp hàng không vũ trụ của Mỹ chấn động.
 
-Kích thước màn hình của iPhone XR lớn hơn iPhone X (6.1 inch so với 5.8 inch). Bên cạnh đó, viền bezel khiến mặt trước của XR có vẻ ít ấn tượng hơn iPhone X khi bạn mở sáng màn hình lên. Đây có thể là một lý do biện minh cho mức giá thấp của iPhone XR.
+Ngay sau đó, một cuộc điều tra quy mô nhằm xác định nguyên nhân vụ nổ đã được chính quyền Mỹ thông qua.
 
-Apple cung cấp tiêu chuẩn chống nước và bụi IP67 trên cả 2 mẫu iPhone này cùng khả năng sạc không dây chuẩn Qi.
+Một nhóm điều tra tai nạn bao gồm: SpaceX, NASA, cục Hàng không Liên bang, Không quân Hoa Kỳ và ủy ban An toàn Giao thông Quốc gia đã thu thập các mảnh vỡ từ vụ nổ và máy đẩy SuperDraco của con tàu này. Ngay sau đó, các nhà điều tra đã chuyển toàn bộ những gì thu thập được đến cơ sở phát triển của công ty ở McGregor, Texas để thử nghiệm.
 
-### Màn Hình
-Thay vì màn hình OLED như iPhone X, Apple chỉ sử dụng công nghệ LCD trên iPhone XR với một tên gọi mới là Liquid Retina.
+<div class="media">
+  <img src="/assets/img/2-1.jpg">
+</div>
 
-Mặc dù Apple tuyên bố màn LCD của iPhone XR là tiên tiến nhất từng thấy trên điện thoại thông minh, nhưng cảm nhận cá nhân thì nó vẫn cung cấp trải nghiệm xem kém hơn so với màn AMOLED của iPhone X.
+Và, hôm thứ Hai vừa qua, SpaceX đã tiết lộ nguyên nhân vụ tai nạn. Theo đó, vụ nổ được xác định bắt nguồn từ sự cố rò rỉ tại hệ thống điều áp của tàu. Cùng ngày, các nhà nghiên cứu của SpaceX cũng đưa ra bản phác thảo cách rò rỉ trong hệ thống điều áp của con tàu trên.
 
-### Đặc điểm và tính năng
-iPhone X và iPhone XR đều đã loại bỏ nút Home, Touch ID và sử dụng hệ thống camera TrueDepth để quét khuôn mặt Face ID, hỗ trợ Animoji và Memoji.
+Theo bản phác thảo này, sự cố rò rỉ khiến một loại chất oxy hóa lỏng - nitơ tetroxide, hoặc NTO - tiếp xúc với van titan. Tuy nhiên, kết luận này khiến nhiều người ngạc nhiên. Chính SpaceX cũng khá bất ngờ trước kết quả này.
 
-Bạn có thể lựa chọn các cấu hình lưu trữ 64GB và 256GB giống nhau, iPhone XR cung cấp thêm tùy chọn 128GB mà iPhone X không có.
+Đại diện của SpaceX thông tin: "Điều đáng chú ý là phản ứng giữa titan và NTO ở áp suất cao là điều khó xảy ra. Titanium đã được sử dụng một cách an toàn trong nhiều thập kỷ và trên nhiều tàu vũ trụ từ khắp nơi trên thế giới".
 
-Chip A12 Bionic mới nhất đã đưa mọi thứ về hiệu suất, khả năng xử lý AI, AR, chụp ảnh và sử dụng năng lượng trên iPhone XR lên một tầm cao mới.
+<div class="media">
+  <img src="/assets/img/2-2.jpg">
+</div>
 
-### Camera
-Sự khác biệt lớn nhất có thể nhìn thấy bên ngoài chính là hệ thống camera sau. Bạn có 2 cảm biến 12MP ở trên iPhone X với ống kính phụ là cảm biến tele hỗ trợ zoom quang 2x.
+Trong một cuộc trao đổi qua điện thoại ông Hans Koenigsman, Phó Chủ tịch Phụ trách trong việc xây dựng và đảm bảo độ tin cậy của các chuyến bay tại SpaceX nhấn mạnh, nguyên nhân vụ tai nạn hoàn toàn nằm ở hệ thống điều áp và không liên quan gì đến lỗi động cơ.
 
-Ở iPhone XR, phía sau chỉ có một cảm biến 12MP. Nếu xét về chụp ảnh thông thường thì nhờ chip mới và ống kính tốt hơn, iPhone XR có thể nhỉnh hơn iPhone X.
+Ông cũng tiết lộ, công ty sẽ thay thế các van bằng các đĩa nổ có khả năng bịt kín hoàn toàn để giảm thiểu rủi ro. Tuy nhiên, Glen Meyerowitz, cựu kỹ sư của SpaceX lại cho rằng, sự thay đổi này có thể làm giảm khả năng tái sử dụng của tàu vũ trụ.
 
-Đối với camera trước, iPhone X và iPhone XR cùng có camera 7MP với khẩu độ f/2.2, tiêu cự 32mm giống nhau. Bạn cũng có thể chụp ảnh selfie chân dung với hiệu ứng ánh sáng studio ở trên cả 2 điện thoại này.
-
-### Kết luận
-Cả 2 mẫu iPhone đều có những ưu thế riêng. iPhone X có thiết kế tinh tế hơn, màn hình đẹp hơn và nhiều camera hơn so với iPhone XR.
-
-Trong khi đó, mẫu iPhone giá rẻ của Apple có hiệu suất tốt hơn, màn hình lớn hơn, pin tốt hơn và nhiều tùy chọn màu sắc hơn để lựa chọn.
-
-Source: Báo 24h.com.vn
+"Tùy thuộc vào cách thức, vị trí lắp đặt, các đĩa nổ có thể rất khó tháo và thay thế nếu bị hư hỏng", người này cho hay.
+Source: 24h.com.vn
