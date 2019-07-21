@@ -1,8 +1,8 @@
 ---
-title: SpaceX tiết lộ nguyên nhân gây ra vụ nổ tàu vũ trụ tối tân
+title: SpaceX tiết lộ nguyên nhân 
 date: 2018-11-26 07:00:00 +07:00
 
-excerpt: 51% của cái gì và gây hại như thế nào.
+
 ---
 
 ### Khi bạn yêu thích những thiết kế mới của iPhone nhưng có hầu bao hạn chế, chắc hẳn bạn sẽ cân nhắc lựa chọn giữa thế hệ cũ sang chảnh như iPhone X hay thế hệ mới bình dân như iPhone XR.
