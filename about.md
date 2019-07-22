@@ -322,14 +322,12 @@ image: "/assets/img/dapp.png"
 </style>
 <section class="hero-section">
     <div style="text-align: center;font-size:0.9rem;color:#333;font-weight:300">Thầy</div>
-    <h1>Bá Phong</h1>
-    <h3>Học để tạo giá trị, học để sống an lạc</h3>
+    <h1>Anton Linh</h1>
+    <h3>Code để thay đổi thế giới</h3>
     <div class="action-zone">
-        <a href="https://www.facebook.com/baphong80" class="main-button">ĐĂNG KÍ →</a>
+        <a href="https://www.facebook.com/profile.php?id=100016649285438" class="main-button">Nhắn tin với mình →</a>
     </div>
-    <div>
-        Liên hệ: <a href="mailto:baphong80@gmail.com" target="_blank">Email</a> - <a href="https://t.me/baphong" target="_blank">Telegram</a>
-    </div>
+    
 </section>
 
 
@@ -371,41 +369,14 @@ image: "/assets/img/dapp.png"
 <br><br>
 
 <div class="blog-section" style="background:#eee">
-    <h2 class="section-title">Sơ lược về thầy Bá Phong</h2>
+    <h2 class="section-title">Sơ lược về Anton Linh</h2>
     <ul>
-        <p>Thầy Bá Phong có bằng Thạc sỹ Toán, Cử nhân CNTT và Cử Nhân tiếng Anh</p>
-        <p>Thầy có gần 2 năm học chương trình tiến sỹ tại đại học Blaise Pascal, Pháp</p>
-        <p>Thầy có hơn 10 năm kinh nghiệm giảng dạy tại Trường chuyên THPT và trường Đại học</p>
-        <p>Thầy có hơn 5 năm kinh nghiệm làm việc tại 2 tập đoàn của Úc và Singapore</p>
-        <p>Thầy đã dành ra hàng chục năm nghiên cứu và trải nghiệm về giáo dục, về quá trình học và dạy </p>
+        <p>Năm 2013 từng đi thi IOE thành phố và đạt giải ba</p>
+        <p>Năm 2014 được đi trải nghiệm sống tại nhà người pháp lần đầu ở Hà Nội</p>
+        <p>Năm 2016 phỏng vấn và được chọn cho chương trình trao đổi học sinh tại pháp</p>
+        <p>Năm 2017 đạt giải nhất cuộc thi học sinh giỏi thành phố và tỉnh môn Tiếng Pháp</p>
+        <p>Năm 2017 Thủ khoa đầu vào môn chuyên lớp C4 trường THPT chuyên Phan Bội Châu </p>
     </ul>
 </div>
 
-<div class="blog-section">
-    <h2 class="section-title">10 khác biệt khi học với thầy Bá Phong</h2>
-    <ul>
-        <li>Không có vở ghi, vở nháp, không ghi bài, không có bút bi, bút mực, chỉ mang theo bút chì và tẩy.</li>
-        <li>Không có bài tập về nhà, nhưng về nhà phải giảng lại bài đã học cho bố mẹ nghe và quay clip gửi thầy.</li>
-        <li>Phương pháp học: tương tác, tranh biện, luyện tự duy.</li>
-        <li>Giải lao được ngồi Thiền 10 phút hoặc xem clip Tiếng Anh, du học Mỹ. </li>
-        <li>Toilet khép kín, sạch như ks 5 sao (HS bảo thế). </li>
-        <li>Học thử 2 buổi, thấy phù hợp thì học lâu dài, chưa phù hợp thì nghỉ không đóng học phí.</li>
-        <li>Thầy không kiểm tra đánh giá, các kỳ thi Toán Tiếng Anh quốc tế sẽ đánh giá cả thầy và trò.</li>
-        <li>Học tốt, thi tốt thì đươc đi Singapore miễn phí vào dịp hè. </li>
-        <li>Học Việt Nam nhưng đạt chuẩn Mỹ, có thể du học Mỹ ở bất kỳ cấp học nào. </li>
-        <li>Giảm 50% học phí cho gia đình có hoàn cảnh khó khăn, mẹ đơn thân, gà trống nuôi con.</li>
-    </ul>
-    
-</div>
 
-
-
-<div class="hero-section">
-    <h2 class="section-title">Đăng kí</h2>
-    <div class="action-zone">
-        <a href="https://www.facebook.com/baphong80" class="main-button">Facebook →</a>
-    </div>
-    <div>
-        Liên hệ:  <a href="https://t.me/mangcut" target="_blank">Telegram</a>
-    </div>
-</div>
