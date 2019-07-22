@@ -321,7 +321,6 @@ image: "/assets/img/dapp.png"
     }
 </style>
 <section class="hero-section">
-    <div style="text-align: center;font-size:0.9rem;color:#333;font-weight:300">Thầy</div>
     <h1>Anton Linh</h1>
     <h3>Code để thay đổi thế giới</h3>
     <div class="action-zone">
