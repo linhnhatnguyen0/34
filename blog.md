@@ -5,7 +5,7 @@ layout: home
 ---
 <style>
 body {
-        background-image: url("https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847_960_720.jpg");
+        background-image: url("https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/70100/3cfd519cbf481dc734a2915e01875ab4c3e2ecf5.jpg");
  
 </style>
 
