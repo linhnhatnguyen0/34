@@ -5,7 +5,7 @@ layout: home
 ---
 <style>
 body {
-        background-image: url("https://ak7.picdn.net/shutterstock/videos/13505777/thumb/1.jpg");
+        background-image: url("https://cdn.discordapp.com/attachments/588625591629119527/603408733061644320/mjwwu.png");
         
 </style>
 
