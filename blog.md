@@ -5,7 +5,7 @@ layout: home
 ---
 <style>
 body {
-        background-image: url("https://ak8.picdn.net/shutterstock/videos/22045078/thumb/1.jpg");
+        background-image: url("http://www.f-covers.com/cover/music-yellow-vintage-vector-boom-box-facebook-cover-timeline-banner-for-fb.jpg");
  
 </style>
 
