@@ -16,14 +16,14 @@
     padding-top: 0.6rem;
 }
 .caption {
-    color: green;
+    color: #cf9014;
     font-size: 0.9em;
     padding-top: 4px;
 }
 .non-quote {
     font-size: 1.25rem;
     letter-spacing: 0;
-    color: #58faf4;
+    color: #cf9014;
     padding: 4.5%;
     text-align: center;
     border-top: 1px solid #eee;
@@ -32,13 +32,13 @@
 blockquote {
     font-size: 1.25rem;
     letter-spacing: 0;
-    color: #a9d0f5;
+    color: #cf9014;
     position: relative;
     padding: 16px 16px 16px 48px;
 }
 blockquote::before{
     content: "\201C";
-    color:#f5da81;
+    color:#cf9014;
     font-size:4em;
     position: absolute;
     left: 10px;
