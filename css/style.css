@@ -69,7 +69,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  color: #fff;
+  color: #ffc;
   margin: 0; }
 
 button:focus {
@@ -249,13 +249,13 @@ button:focus {
       .header_area .navbar .nav .nav-item .nav-link {
         font: 500 14px/100px "Roboto", sans-serif;
         text-transform: capitalize;
-        color: #000;
+        color: #fff;
         padding: 0px;
         display: inline-block; }
         .header_area .navbar .nav .nav-item .nav-link:after {
           display: none; }
       .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
-        color: #081113; }
+        color: #fff; }
       .header_area .navbar .nav .nav-item.submenu {
         position: relative; }
         .header_area .navbar .nav .nav-item.submenu ul {
@@ -808,7 +808,7 @@ button:focus {
       display: block; } }
 
 .single-popular-post {
-  background: #000;
+  background: #fff;
   margin-bottom: 30px;
   transition: all 300ms linear 0s; }
   .single-popular-post .desc {
@@ -821,7 +821,7 @@ button:focus {
     font-size: 16px;
     margin-bottom: 5px; }
     .single-popular-post h4 a {
-      color: #fff; }
+      color: #000; }
   .single-popular-post:hover {
     background: #ffffff;
     box-shadow: -10px 10px 30px rgba(153, 153, 153, 0.2); }
@@ -1543,7 +1543,7 @@ button:focus {
       display: block; } }
   .main_blog_details .news_d_footer a {
     font-size: 14px;
-    color: #000; }
+    color: #fff; }
     @media (max-width: 380px) {
       .main_blog_details .news_d_footer a .lnr-bubble {
         margin-left: 30px; } }
@@ -1554,7 +1554,7 @@ button:focus {
     color: #cccccc;
     font-size: 14px; }
     .main_blog_details .news_d_footer .news_socail a:hover {
-      color: #081113; }
+      color: #fff; }
     .main_blog_details .news_d_footer .news_socail a:last-child {
       margin-right: 0px; }
 
