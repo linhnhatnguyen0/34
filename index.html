@@ -1,305 +1,886 @@
----
-layout: default
----
+<!doctype html>
+<html lang="en">
 
-<style>
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="img/favicon.png" type="image/png">
+	<title>Fantasy Travel Blog</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<link rel="stylesheet" href="vendors/animate-css/animate.css">
+	<link rel="stylesheet" href="vendors/jquery-ui/jquery-ui.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
 
-.hero-section, .features-section, .quote-section, .blog-section {
-    padding: 30px 0;
-    border-radius: 2px;
-}
+<body>
 
-.features-section * {
-    box-sizing: border-box;
-}
+	<!--================Header Menu Area =================-->
+	<header class="header_area">
+		<div class="main_menu">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<a class="navbar-brand logo_h" href="index.html">
+						<img src="img/logo.png" alt="">
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav justify-content-center mx-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="category.html">Category</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="archive.html">Archive</a>
+							</li>
+							<li class="nav-item submenu dropdown active">
+								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+								 aria-expanded="false">Pages</a>
+								<ul class="dropdown-menu">
+									<li class="nav-item">
+										<a class="nav-link" href="elements.html">Elements</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="single-blog.html">Post Details</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="contact.html">Contact</a>
+							</li>
+						</ul>
+						<ul class="nav navbar-nav ml-auto search">
+								<li class="nav-item d-flex align-items-center mr-10">
+									<div class="menu-form">
+										<form>
+											<div class="form-group">
+												<input type="text" class="form-control" placeholder="Search here">
+											</div>
+										</form>
+									</div>
+									<button type="submit" class="search-icon">
+										<i class="lnr lnr-magnifier"></i>
+									</button>
+								</li>
+							</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!--================ Header Menu Area =================-->
 
+	<!--================ Home Banner Area =================-->
+	<section class="home_banner_area">
+		<div class="owl-carousel owl-theme" id="home-owl">
+			<div class="slide-item owl-lazy" data-src="img/banner/home-banner.jpg">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-5"></div>
+						<div class="col-lg-7">
+							<div class="blog_text_slider">
+								<div class="blog_text">
+									<img class="img-fluid" src="img/banner/banner-img.png" alt="">
+									<div class="blog-meta bottom d-flex justify-content-between align-items-center flex-wrap">
+										<div class="meta">
+											<span class="icon fa fa-calendar"></span> March 14, 2018
+											<span class="icon fa fa-comments"></span> 05
+										</div>
+										<div>
+											<a class="read_more" href="#">Read More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-.features-section .feature-row {
-	display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
+			<div class="slide-item owl-lazy" data-src="img/banner/home-banner2.jpg">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-5"></div>
+						<div class="col-lg-7">
+							<div class="blog_text_slider">
+								<div class="blog_text">
+									<img class="img-fluid" src="img/banner/banner-img2.png" alt="">
+									<div class="blog-meta bottom d-flex justify-content-between align-items-center flex-wrap">
+										<div class="meta">
+											<span class="icon fa fa-calendar"></span> March 14, 2018
+											<span class="icon fa fa-comments"></span> 05
+										</div>
+										<div>
+											<a class="read_more" href="#">Read More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-.features-section .feature-row .feature-card {
-    background-color: #c57900;
-    width: calc(33.333% - 8px);
-    margin-top: 16px;
-    border-radius: 2px;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
-}
-
-.features-section .feature-row .feature-card .image {
-    background-size: cover;
-    background-position: center center;
-    height: 192px;
-}
-
-.features-section .feature-row .feature-card .text {
-    padding: 16px;
-text-align: center
-	}
-	
-.features-section h5 {
-	color: #000000;
-    font-size: 21px;
-    text-transform: uppercase;
-	text-align: center
-}
-
-.features-section p {
-	color: #fff;
-    font-size: 90%;
-    padding-top: 12px;
-    margin-bottom: 0;
-	text-align: center
-}
-
-.features-section .feature-row .feature-card .button {
-    padding: 16px 16px 32px;
-}
-
-.quote-section {
-    background-color: rgb(246, 18, 18);
-    background-image: url("/assets/img/TeamfightTactics.jpg");
-}
-
-figure.testimonial {
-  position: relative;
-  float: left;
-  margin: 10px 1% 40px;
-  max-width: 480px;
-  width: 100%;
-  color: #fff;
-  text-align: left;
-  border-radius: 90px;
-  box-shadow: -3px 5px 12px 0 rgba(0,0,0,0.3);
-}
-figure.testimonial.first {
-    transform: rotate(-5deg);
-    top: 18px;
-}
-figure.testimonial.second {
-    float:right;
-    transform: rotate(15deg);
-}
-figure.testimonial * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-figure.testimonial img {
-  float: right;
-  max-width: 40%;
-  vertical-align: middle;
-  background-color: rgb(246, 18, 18);
-  /*border-radius: 0 8px 8px 0;*/
-}
-figure.testimonial figcaption {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 60%;
-  position: absolute;
-  background-color: #c57900;
-  border-radius: 8px 0 0 8px;
-}
-figure.testimonial blockquote {
-  background-color: #c57900;
-  position: relative;
-  padding: 25px 50px 25px 50px;
-  font-size: 0.9em;
-  font-weight: 500;
-  text-align: left;
-  margin: 0;
-  line-height: 1.6em;
-  font-style: italic;
-  border-left: 0;
-  color: #333;
-}
-figure.testimonial blockquote:before,
-figure.testimonial blockquote:after {
-  font-family: 'FontAwesome', Times, Arial;
-  content: "\201C";
-  position: absolute;
-  font-size: 50px;
-  opacity: 0.3;
-  font-style: normal;
-}
-figure.testimonial blockquote:before {
-  top: 25px;
-  left: 20px;
-}
-figure.testimonial blockquote:after {
-  content: "\201D";
-  right: 20px;
-  bottom: 0px;
-}
-figure.testimonial .arrow {
-  top: 30px;
-  left: 100%;
-  width: 0;
-  height: 0;
-  border-left: 0 solid transparent;
-  border-right: 25px solid transparent;
-  border-top: 25px solid #fdf9c5;
-  margin: 0;
-  position: absolute;
-}
-figure.testimonial .author {
-  position: absolute;
-  top: 100%;
-  width: 100%;
-  padding: 10px 15px;
-  color: #fff;
-  margin: 0;
-  text-transform: uppercase;
-}
-figure.testimonial .author h5 {
-  opacity: 0.8;
-  margin: 0;
-  font-weight: 1000;
-}
-figure.testimonial .author h5 span {
-  font-weight: 400;
-  text-transform: none;
-  padding-left: 10px;
-}
-
-@media only screen and (max-width: 800px) {
-	.features-section .feature-row .feature-card {
-        width: 100%;
-    }
-    figure.testimonial.first {
-        top: 32px;
-    }
-    figure.testimonial.first .author {
-        top: auto;
-        bottom: 100%;
-    }
-}
-
-@media only screen and (max-width: 499px) {
-	figure.testimonial img {
-        display: none;
-    }
-    figure.testimonial figcaption {
-        width: 100%;
-        position: relative;
-    }
-    figure.testimonial.second {
-        float:left;
-    }
-    figure.testimonial .arrow {
-        display: none;
-    }
-    figure.testimonial.first blockquote {
-        text-align: right;
-    }
-}
-
-.hero-section {
-    text-align:center;
-    vertical-align:top;
-    background-color: rgb(255,255, 255);
-    background-image: url('https://www.wallpapermaiden.com/wallpaper/21604/download/2560x1600/gigabyte-aorus-eye-gtx-1080.jpg');
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 240px 0;
-}
-
-.hero-section h1 {
-    font-size: 30px;
-    font-weight: 500;
-    color: #b8ff5a;
-}
-	
-.hero-section h3 {
-    color: #eee;
-    font-weight: 300;
-	}
-
-.hero-section .action-zone {
-    padding: 32px 0;
-}
-
-.hero-section a.main-button {
-    color: #f8f8f8;
-    border: 2px solid #f5f5f5;
-    text-decoration: none;
-    padding: 16px 24px;
-    border-radius: 2px;
-}
-
-.hero-section a.main-button:hover {
-    color: #15B5DD;
-    background-color: #eee;
-}
-
-h2.section-title {
-    font-weight: 300;
-    text-transform: uppercase;
-    text-align: left;
-    color: #828282;
-}
-
-</style>
-<style>
-body {
-        background-image: url("https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/70100/3cfd519cbf481dc734a2915e01875ab4c3e2ecf5.jpg");
- 
-</style>
-<section class="hero-section">
-    <h1>TOÁN TIẾNG ANH</h1>
-    <h3>Chìa khóa mở cánh cửa du học Mỹ</h3>
-    <div class="action-zone">
-        <a href="/courses/tta/" class="main-button">CHI TIẾT →</a>
-    </div>
-
-
-</section>
-
-<section class="features-section">	
-    <div class="features-wrapper">
-        <div class="feature-row">
-            <div class="feature-card">
-                <div class="image" style="background-position:right center;background-color:rgb(50, 100, 78);background-image:url('https://fmgroup.vn/wp-content/uploads/2019/06/du-hoc-phap.jpg')">
-                </div>
-                <div class="text">
-                    <h5>Học Tập</h5>
-                    <p>Một vài tip để các bạn học tiếng pháp tốt hơn</p>
-                </div>
-                <div class="button" style="text-align: center">
-                    <a href="/courses/" style="color:#000000">Chi tiết →</a>
-                </div>
-            </div>
-            <div class="feature-card">
-                <div class="image" style="background-color:rgb(28, 121, 56);background-image:url('/assets/img/trochuyen.jpg')">
-                </div>
-                <div class="text">
-                    <h5>Trò Chuyện</h5>
-                    <p>Thảo luận về nước pháp và ngôn ngữ pháp</p>
-                </div>
-                <div class="button" style="text-align: center">
-                    <a href="/consulting/" style="color: #000000">Chi tiết →</a>
-                </div>
-            </div>
-            <div class="feature-card">
-                <div class="image" style="background-position:center bottom;background-color:rgb(204, 200, 197);background-image:url('/assets/img/tech.jpg')">
-                </div>
-                <div class="text">
-                    <h5>Blog</h5>
-                    <p>Tập hợp các tin tức mới nhất về công nghệ trên thế giới .</p>
-                </div>
-                <div class="button" style="text-align: center">
-                    <a href="http://linhnhatnguyen0.github.io/antonlinh/blog/"style="color: #000000">Chi tiết →</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="blog-section">
-	<font color="00ff00">
-    <h2 class="section-title">&nbsp;</h2>
-	</font>
+			<div class="slide-item owl-lazy" data-src="img/banner/home-banner3.jpg">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-5"></div>
+						<div class="col-lg-7">
+							<div class="blog_text_slider">
+								<div class="blog_text">
+									<img class="img-fluid" src="img/banner/banner-img3.png" alt="">
+									<div class="blog-meta bottom d-flex justify-content-between align-items-center flex-wrap">
+										<div class="meta">
+											<span class="icon fa fa-calendar"></span> March 14, 2018
+											<span class="icon fa fa-comments"></span> 05
+										</div>
+										<div>
+											<a class="read_more" href="#">Read More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
+	<!--================ End Home Banner Area =================-->
+
+	<!--================ Travel Category Area =================-->
+	<section class="travel_category">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="main_title">
+						<h1>Best Travel Experience Within the Universe.</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row owl-carousel" id="travel_cat">
+				<div class="single_travel wow fadeIn" data-wow-duration="1s">
+					<figure>
+						<img class="img-fluid" src="img/travel/t1.jpg" alt="">
+					</figure>
+					<div class="overlay"></div>
+					<div class="text-wrap">
+						<h3>
+							<a href="#">Waterfall Travel</a>
+						</h3>
+						<div class="blog-meta white d-flex justify-content-between align-items-center flex-wrap">
+							<div class="meta">
+								<a href="#">
+									<span class="icon fa fa-calendar"></span> March 14, 2018
+									<span class="icon fa fa-comments"></span> 05
+								</a>
+							</div>
+							<div>
+								<a class="read_more" href="#">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="single_travel wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
+					<figure>
+						<img class="img-fluid" src="img/travel/t2.jpg" alt="">
+					</figure>
+					<div class="overlay"></div>
+					<div class="text-wrap">
+						<h3>
+							<a href="#">Waterfall Travel</a>
+						</h3>
+						<div class="blog-meta white d-flex justify-content-between align-items-center flex-wrap">
+							<div class="meta">
+								<a href="#">
+									<span class="icon fa fa-calendar"></span> March 14, 2018
+									<span class="icon fa fa-comments"></span> 05
+								</a>
+							</div>
+							<div>
+								<a class="read_more" href="#">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="single_travel wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">
+					<figure>
+						<img class="img-fluid" src="img/travel/t3.jpg" alt="">
+					</figure>
+					<div class="overlay"></div>
+					<div class="text-wrap">
+						<h3>
+							<a href="#">Waterfall Travel</a>
+						</h3>
+						<div class="blog-meta white d-flex justify-content-between align-items-center flex-wrap">
+							<div class="meta">
+								<a href="#">
+									<span class="icon fa fa-calendar"></span> March 14, 2018
+									<span class="icon fa fa-comments"></span> 05
+								</a>
+							</div>
+							<div>
+								<a class="read_more" href="#">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="single_travel wow fadeIn" data-wow-duration="1s" data-wow-delay=".9s">
+					<figure>
+						<img class="img-fluid" src="img/travel/t1.jpg" alt="">
+					</figure>
+					<div class="overlay"></div>
+					<div class="text-wrap">
+						<h3>
+							<a href="#">Waterfall Travel</a>
+						</h3>
+						<div class="blog-meta white d-flex justify-content-between align-items-center flex-wrap">
+							<div class="meta">
+								<a href="#">
+									<span class="icon fa fa-calendar"></span> March 14, 2018
+									<span class="icon fa fa-comments"></span> 05
+								</a>
+							</div>
+							<div>
+								<a class="read_more" href="#">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="single_travel wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">
+					<figure>
+						<img class="img-fluid" src="img/travel/t2.jpg" alt="">
+					</figure>
+					<div class="overlay"></div>
+					<div class="text-wrap">
+						<h3>
+							<a href="#">Waterfall Travel</a>
+						</h3>
+						<div class="blog-meta white d-flex justify-content-between align-items-center flex-wrap">
+							<div class="meta">
+								<a href="#">
+									<span class="icon fa fa-calendar"></span> March 14, 2018
+									<span class="icon fa fa-comments"></span> 05
+								</a>
+							</div>
+							<div>
+								<a class="read_more" href="#">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="single_travel wow fadeIn" data-wow-duration="1s" data-wow-delay=".9s">
+					<figure>
+						<img class="img-fluid" src="img/travel/t3.jpg" alt="">
+					</figure>
+					<div class="overlay"></div>
+					<div class="text-wrap">
+						<h3>
+							<a href="#">Waterfall Travel</a>
+						</h3>
+						<div class="blog-meta white d-flex justify-content-between align-items-center flex-wrap">
+							<div class="meta">
+								<a href="#">
+									<span class="icon fa fa-calendar"></span> March 14, 2018
+									<span class="icon fa fa-comments"></span> 05
+								</a>
+							</div>
+							<div>
+								<a class="read_more" href="#">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="single_travel wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">
+					<figure>
+						<img class="img-fluid" src="img/travel/t1.jpg" alt="">
+					</figure>
+					<div class="overlay"></div>
+					<div class="text-wrap">
+						<h3>
+							<a href="#">Waterfall Travel</a>
+						</h3>
+						<div class="blog-meta white d-flex justify-content-between align-items-center flex-wrap">
+							<div class="meta">
+								<a href="#">
+									<span class="icon fa fa-calendar"></span> March 14, 2018
+									<span class="icon fa fa-comments"></span> 05
+								</a>
+							</div>
+							<div>
+								<a class="read_more" href="#">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="single_travel wow fadeIn" data-wow-duration="1s" data-wow-delay=".9s">
+					<figure>
+						<img class="img-fluid" src="img/travel/t2.jpg" alt="">
+					</figure>
+					<div class="overlay"></div>
+					<div class="text-wrap">
+						<h3>
+							<a href="#">Waterfall Travel</a>
+						</h3>
+						<div class="blog-meta white d-flex justify-content-between align-items-center flex-wrap">
+							<div class="meta">
+								<a href="#">
+									<span class="icon fa fa-calendar"></span> March 14, 2018
+									<span class="icon fa fa-comments"></span> 05
+								</a>
+							</div>
+							<div>
+								<a class="read_more" href="#">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================ End Travel Category Area =================-->
+
+	<!--================ Latest Blog Area =================-->
+	<section class="latest_blog_post">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="main_title">
+						<h1>Latest
+							<br> Blog Posts.</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-6 col-md-12">
+					<div class="single_travel wow fadeInUp" data-wow-duration="1s">
+						<figure>
+							<img class="img-fluid w-100" src="img/blog-post/b1.jpg" alt="">
+						</figure>
+						<div class="overlay"></div>
+						<div class="text-wrap">
+							<h3>
+								<a href="#">Waterfall Travel</a>
+							</h3>
+							<div class="blog-meta white d-flex justify-content-between align-items-center flex-wrap">
+								<div class="meta">
+									<a href="#">
+										<span class="icon fa fa-calendar"></span> March 14, 2018
+										<span class="icon fa fa-comments"></span> 05
+									</a>
+								</div>
+								<div>
+									<a class="read_more" href="#">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="single_travel wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+						<figure>
+							<img class="img-fluid w-100" src="img/blog-post/b2.jpg" alt="">
+						</figure>
+						<div class="overlay"></div>
+						<div class="text-wrap">
+							<h3>
+								<a href="#">Waterfall Mountain Island</a>
+							</h3>
+							<div class="blog-meta white d-flex justify-content-between align-items-center flex-wrap">
+								<div class="meta">
+									<a href="#">
+										<span class="icon fa fa-calendar"></span> March 14, 2018
+										<span class="icon fa fa-comments"></span> 05
+									</a>
+								</div>
+								<div>
+									<a class="read_more" href="#">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="single_travel wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+						<figure>
+							<img class="img-fluid w-100" src="img/blog-post/b3.jpg" alt="">
+						</figure>
+						<div class="overlay"></div>
+						<div class="text-wrap">
+							<h3>
+								<a href="#">Waterfall Mountain Island</a>
+							</h3>
+							<div class="blog-meta white d-flex justify-content-between align-items-center flex-wrap">
+								<div class="meta">
+									<a href="#">
+										<span class="icon fa fa-calendar"></span> March 14, 2018
+										<span class="icon fa fa-comments"></span> 05
+									</a>
+								</div>
+								<div>
+									<a class="read_more" href="#">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6">
+					<div class="single_travel wow fadeInUp mt--60" data-wow-duration="1s" data-wow-delay=".6s">
+						<figure>
+							<img class="img-fluid w-100" src="img/blog-post/b4.jpg" alt="">
+						</figure>
+						<div class="overlay"></div>
+						<div class="text-wrap">
+							<h3>
+								<a href="#">Waterfall Mountain Island</a>
+							</h3>
+							<div class="blog-meta white d-flex justify-content-between align-items-center flex-wrap">
+								<div class="meta">
+									<a href="#">
+										<span class="icon fa fa-calendar"></span> March 14, 2018
+										<span class="icon fa fa-comments"></span> 05
+									</a>
+								</div>
+								<div>
+									<a class="read_more" href="#">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6">
+					<div class="single_travel wow fadeInUp mt--60" data-wow-duration="1s" data-wow-delay=".8s">
+						<figure>
+							<img class="img-fluid w-100" src="img/blog-post/b5.jpg" alt="">
+						</figure>
+						<div class="overlay"></div>
+						<div class="text-wrap">
+							<h3>
+								<a href="#">Waterfall Mountain Island</a>
+							</h3>
+							<div class="blog-meta white d-flex justify-content-between align-items-center flex-wrap">
+								<div class="meta">
+									<a href="#">
+										<span class="icon fa fa-calendar"></span> March 14, 2018
+										<span class="icon fa fa-comments"></span> 05
+									</a>
+								</div>
+								<div>
+									<a class="read_more" href="#">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6 col-md-12">
+					<div class="single_travel wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+						<figure>
+							<img class="img-fluid w-100" src="img/blog-post/b6.jpg" alt="">
+						</figure>
+						<div class="overlay"></div>
+						<div class="text-wrap">
+							<h3>
+								<a href="#">Waterfall Travel</a>
+							</h3>
+							<div class="blog-meta white d-flex justify-content-between align-items-center flex-wrap">
+								<div class="meta">
+									<a href="#">
+										<span class="icon fa fa-calendar"></span> March 14, 2018
+										<span class="icon fa fa-comments"></span> 05
+									</a>
+								</div>
+								<div>
+									<a class="read_more" href="#">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="offset-lg-7 col-lg-4">
+					<div class="blog-meta bottom d-flex justify-content-end align-items-center">
+						<div>
+							<a class="read_more" href="#">Load More Posts</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================ End Latest Blog Area =================-->
+
+	<!--================ Places Area =================-->
+	<section class="different_places">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="main_title">
+						<h1>Let Us Find Your Places Within a Sec.</h1>
+						<p>
+							There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s
+							exciting to think
+							about setting up your own viewing station.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<div class="single_place wow fadeIn text-center mt-480" data-wow-duration="1s">
+						<img class="img-fluid w-100" src="img/places/p1.jpg" alt="">
+						<div class="overlay"></div>
+						<h4>Waterfall
+							<br> Mountain Island</h4>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="single_place wow fadeIn text-center mt-240" data-wow-duration="1s" data-wow-delay=".2s">
+						<img class="img-fluid w-100" src="img/places/p2.jpg" alt="">
+						<div class="overlay"></div>
+						<h4>Waterfall
+							<br> Mountain Island</h4>
+					</div>
+					<div class="single_place wow fadeIn text-center" data-wow-duration="1s" data-wow-delay="1s">
+						<img class="img-fluid w-100" src="img/places/p3.jpg" alt="">
+						<div class="overlay"></div>
+						<h4>Waterfall
+							<br> Mountain Island</h4>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="single_place wow fadeIn text-center" data-wow-duration="1s" data-wow-delay=".4s">
+						<img class="img-fluid w-100" src="img/places/p4.jpg" alt="">
+						<div class="overlay"></div>
+						<h4>Waterfall
+							<br> Mountain Island</h4>
+					</div>
+					<div class="single_place wow fadeIn text-center" data-wow-duration="1s" data-wow-delay=".8s">
+						<img class="img-fluid w-100" src="img/places/p5.jpg" alt="">
+						<div class="overlay"></div>
+						<h4>Waterfall
+							<br> Mountain Island</h4>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="single_place wow fadeIn text-center mt-240" data-wow-duration="1s" data-wow-delay=".6s">
+						<img class="img-fluid w-100" src="img/places/p6.jpg" alt="">
+						<div class="overlay"></div>
+						<h4>Waterfall
+							<br> Mountain Island</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================ End Places Area =================-->
+
+	<!--================ Popular Post Area =================-->
+	<section class="popular_post">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="main_title">
+						<h1>Popular <br> Posts to Remember</h1>
+						<p>
+							There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s
+							exciting to think
+							about setting up your own viewing station.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<div class="single-popular-post d-flex align-items-center flex-row">
+						<div class="icon">
+							<img src="img/popular-post/p1.jpg" alt="">
+						</div>
+						<div class="desc">
+							<h4>
+								<a href="#">Waterfall Mountain Visit</a>
+							</h4>
+							<div class="blog-meta d-flex justify-content-between align-items-center flex-wrap">
+								<div class="meta">
+									<a href="#">
+										<span class="icon fa fa-calendar"></span> March 14, 2018
+										<span class="icon fa fa-comments"></span> 05
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6">
+					<div class="single-popular-post d-flex align-items-center flex-row">
+						<div class="icon">
+							<img src="img/popular-post/p2.jpg" alt="">
+						</div>
+						<div class="desc">
+							<h4>
+								<a href="#">Waterfall Mountain Visit</a>
+							</h4>
+							<div class="blog-meta d-flex justify-content-between align-items-center flex-wrap">
+								<div class="meta">
+									<a href="#">
+										<span class="icon fa fa-calendar"></span> March 14, 2018
+										<span class="icon fa fa-comments"></span> 05
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6">
+					<div class="single-popular-post d-flex align-items-center flex-row">
+						<div class="icon">
+							<img src="img/popular-post/p3.jpg" alt="">
+						</div>
+						<div class="desc">
+							<h4>
+								<a href="#">Waterfall Mountain Visit</a>
+							</h4>
+							<div class="blog-meta d-flex justify-content-between align-items-center flex-wrap">
+								<div class="meta">
+									<a href="#">
+										<span class="icon fa fa-calendar"></span> March 14, 2018
+										<span class="icon fa fa-comments"></span> 05
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6">
+					<div class="single-popular-post d-flex align-items-center flex-row">
+						<div class="icon">
+							<img src="img/popular-post/p4.jpg" alt="">
+						</div>
+						<div class="desc">
+							<h4>
+								<a href="#">Waterfall Mountain Visit</a>
+							</h4>
+							<div class="blog-meta d-flex justify-content-between align-items-center flex-wrap">
+								<div class="meta">
+									<a href="#">
+										<span class="icon fa fa-calendar"></span> March 14, 2018
+										<span class="icon fa fa-comments"></span> 05
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6">
+					<div class="single-popular-post d-flex align-items-center flex-row">
+						<div class="icon">
+							<img src="img/popular-post/p5.jpg" alt="">
+						</div>
+						<div class="desc">
+							<h4>
+								<a href="#">Waterfall Mountain Visit</a>
+							</h4>
+							<div class="blog-meta d-flex justify-content-between align-items-center flex-wrap">
+								<div class="meta">
+									<a href="#">
+										<span class="icon fa fa-calendar"></span> March 14, 2018
+										<span class="icon fa fa-comments"></span> 05
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6">
+					<div class="single-popular-post d-flex align-items-center flex-row">
+						<div class="icon">
+							<img src="img/popular-post/p6.jpg" alt="">
+						</div>
+						<div class="desc">
+							<h4>
+								<a href="#">Waterfall Mountain Visit</a>
+							</h4>
+							<div class="blog-meta d-flex justify-content-between align-items-center flex-wrap">
+								<div class="meta">
+									<a href="#">
+										<span class="icon fa fa-calendar"></span> March 14, 2018
+										<span class="icon fa fa-comments"></span> 05
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6">
+					<div class="single-popular-post d-flex align-items-center flex-row">
+						<div class="icon">
+							<img src="img/popular-post/p7.jpg" alt="">
+						</div>
+						<div class="desc">
+							<h4>
+								<a href="#">Waterfall Mountain Visit</a>
+							</h4>
+							<div class="blog-meta d-flex justify-content-between align-items-center flex-wrap">
+								<div class="meta">
+									<a href="#">
+										<span class="icon fa fa-calendar"></span> March 14, 2018
+										<span class="icon fa fa-comments"></span> 05
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6">
+					<div class="single-popular-post d-flex align-items-center flex-row">
+						<div class="icon">
+							<img src="img/popular-post/p8.jpg" alt="">
+						</div>
+						<div class="desc">
+							<h4>
+								<a href="#">Waterfall Mountain Visit</a>
+							</h4>
+							<div class="blog-meta d-flex justify-content-between align-items-center flex-wrap">
+								<div class="meta">
+									<a href="#">
+										<span class="icon fa fa-calendar"></span> March 14, 2018
+										<span class="icon fa fa-comments"></span> 05
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6">
+					<div class="single-popular-post d-flex align-items-center flex-row">
+						<div class="icon">
+							<img src="img/popular-post/p9.jpg" alt="">
+						</div>
+						<div class="desc">
+							<h4>
+								<a href="#">Waterfall Mountain Visit</a>
+							</h4>
+							<div class="blog-meta d-flex justify-content-between align-items-center flex-wrap">
+								<div class="meta">
+									<a href="#">
+										<span class="icon fa fa-calendar"></span> March 14, 2018
+										<span class="icon fa fa-comments"></span> 05
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================ End Popular Post Area =================-->
+
+	<!--================ start footer Area  =================-->
+	<footer class="footer-area section-gap">
+		<div class="container">
+			<div class="single-footer-widget footer_middle">
+				<img src="img/logo.png" alt="">
+				<p class="mt-50">Stay updated with our latest trends</p>
+				<div id="mc_embed_signup">
+					<form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+					 method="get" class="subscribe_form relative">
+						<div class="input-group d-flex flex-row">
+							<input name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '"
+							 required="" type="email">
+							<button class="btn sub-btn">
+								<span class="lnr lnr-arrow-right"></span>
+							</button>
+						</div>
+						<div class="mt-10 info"></div>
+					</form>
+				</div>
+			</div>
+			<div class="footer-bottom footer_copy">
+				<div class="footer-social">
+					<a href="#">
+						<i class="fa fa-facebook"></i>
+					</a>
+					<a href="#">
+						<i class="fa fa-twitter"></i>
+					</a>
+					<a href="#">
+						<i class="fa fa-dribbble"></i>
+					</a>
+					<a href="#">
+						<i class="fa fa-behance"></i>
+					</a>
+				</div>
+
+				<p class="col-lg-12 footer-text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			</div>
+		</div>
+	</footer>
+	<!--================ End footer Area  =================-->
+
+	<!-- ####################### Start Scroll to Top Area ####################### -->
+	<div id="back-top">
+		<a title="Go to Top" href="#">
+			<i class="fa fa-angle-up"></i>
+		</a>
+	</div>
+	<!-- ####################### End Scroll to Top Area ####################### -->
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="vendors/lightbox/simpleLightbox.min.js"></script>
+	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+	<script src="vendors/isotope/isotope-min.js"></script>
+	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="vendors/jquery-ui/jquery-ui.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/mail-script.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+	<script src="js/theme.js"></script>
+</body>
+
+</html>
