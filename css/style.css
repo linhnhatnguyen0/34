@@ -55,7 +55,7 @@ a {
   a:hover, a:focus {
     text-decoration: none;
     outline: none; }
-
+    
 .row.m0 {
   margin: 0px; }
 
@@ -64,12 +64,12 @@ body {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
-  color: #777777; }
+  color: #000; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  color: #000;
+  color: #fff;
   margin: 0; }
 
 button:focus {
@@ -184,7 +184,7 @@ button:focus {
   border-bottom: 1px solid #dddddd;
   padding: 10px 0; }
   .blog-meta a {
-    color: #777777; }
+    color: #000; }
   .blog-meta .meta {
     font-size: 13px; }
     @media (max-width: 1440px) and (min-width: 992px) {
@@ -240,7 +240,7 @@ button:focus {
     border-radius: 0px; }
     @media (max-width: 991px) {
       .header_area .navbar {
-        background: #fff; } }
+        background: #000; } }
     .header_area .navbar .nav .nav-item {
       margin-right: 30px; }
       @media (max-width: 1199px) {
@@ -264,7 +264,7 @@ button:focus {
           border-radius: 0px;
           box-shadow: none;
           margin: 0px;
-          background: #fff;
+          background: #000;
           box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1); }
           @media (max-width: 1300px) {
             .header_area .navbar .nav .nav-item.submenu ul {
@@ -318,7 +318,7 @@ button:focus {
               border-bottom: none; }
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
               background: #081113;
-              color: #fff; }
+              color: #000; }
         @media (min-width: 992px) {
           .header_area .navbar .nav .nav-item.submenu:hover ul {
             visibility: visible;
@@ -344,7 +344,7 @@ button:focus {
     top: -70px;
     left: 0;
     right: 0;
-    background: #fff;
+    background: #000;
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
@@ -392,19 +392,19 @@ button:focus {
       min-width: 270px;
       font-size: 13px; }
       .header_area .menu-form .form-control.placeholder {
-        color: #777777;
+        color: #000;
         font-weight: 400;
         font-size: 13px; }
       .header_area .menu-form .form-control:-moz-placeholder {
-        color: #777777;
+        color: #000;
         font-weight: 400;
         font-size: 13px; }
       .header_area .menu-form .form-control::-moz-placeholder {
-        color: #777777;
+        color: #000;
         font-weight: 400;
         font-size: 13px; }
       .header_area .menu-form .form-control::-webkit-input-placeholder {
-        color: #777777;
+        color: #000;
         font-weight: 400;
         font-size: 13px; }
       @media (max-width: 1440px) {
@@ -571,7 +571,7 @@ button:focus {
     .blog_banner .banner_inner .blog_b_text {
       max-width: 700px;
       margin: auto;
-      color: #fff;
+      color: #000;
       margin-top: 80px; }
       .blog_banner .banner_inner .blog_b_text h2 {
         font-size: 60px;
@@ -621,7 +621,7 @@ button:focus {
       right: 25%;
       bottom: -53px;
       left: 0;
-      background: #f1f9ff;
+      background: #000;
       z-index: -1; }
   .travel_category .owl-stage {
     padding-left: 0 !important; }
@@ -734,7 +734,7 @@ button:focus {
       right: 0;
       bottom: -57px;
       left: 25%;
-      background: #f1f9ff;
+      background: #000;
       z-index: -1; }
   .latest_blog_post .single_travel .text-wrap {
     padding: 0 30px;
@@ -808,7 +808,7 @@ button:focus {
       display: block; } }
 
 .single-popular-post {
-  background: #f1f9ff;
+  background: #000;
   margin-bottom: 30px;
   transition: all 300ms linear 0s; }
   .single-popular-post .desc {
@@ -821,7 +821,7 @@ button:focus {
     font-size: 16px;
     margin-bottom: 5px; }
     .single-popular-post h4 a {
-      color: #000; }
+      color: #fff; }
   .single-popular-post:hover {
     background: #ffffff;
     box-shadow: -10px 10px 30px rgba(153, 153, 153, 0.2); }
@@ -898,7 +898,7 @@ button:focus {
     .causes_item .causes_text p {
       font-size: 14px;
       line-height: 24px;
-      color: #777777;
+      color: #000;
       font-weight: 300;
       margin-bottom: 0px; }
   .causes_item .causes_bottom a {
@@ -937,7 +937,7 @@ button:focus {
       padding: 10px 0px 13px;
       transition: all 0.3s linear; }
       .single-recent-blog-post .details .sec_h4:hover {
-        color: #777777; }
+        color: #000; }
   .single-recent-blog-post .date {
     font-size: 14px;
     line-height: 24px;
@@ -1014,12 +1014,12 @@ button:focus {
       font: 300 14px/21px "Playfair Display", serif;
       color: #000; }
       .blog_info .post_tag a:hover {
-        color: #777777; }
+        color: #000; }
       .blog_info .post_tag a.active {
         color: #081113; }
   .blog_info .blog_meta li a {
     font: 300 14px/20px "Playfair Display", serif;
-    color: #777777;
+    color: #000;
     vertical-align: middle;
     padding-bottom: 12px;
     display: inline-block; }
@@ -1060,7 +1060,7 @@ button:focus {
 
 .blog_right_sidebar {
   padding: 30px;
-  background: #f1f9ff; }
+  background: #000; }
   @media (max-width: 320px) {
     .blog_right_sidebar {
       padding: 30px 15px; } }
@@ -1089,22 +1089,22 @@ button:focus {
     border: 0;
     width: 100%;
     font-weight: 300;
-    color: #777777;
+    color: #000;
     padding-left: 20px;
     border-radius: 0px;
     z-index: 0;
     background: #ffffff; }
     .blog_right_sidebar .search_widget .input-group .form-control.placeholder {
-      color: #777777;
+      color: #000;
       font-weight: normal; }
     .blog_right_sidebar .search_widget .input-group .form-control:-moz-placeholder {
-      color: #777777;
+      color: #000;
       font-weight: normal; }
     .blog_right_sidebar .search_widget .input-group .form-control::-moz-placeholder {
-      color: #777777;
+      color: #000;
       font-weight: normal; }
     .blog_right_sidebar .search_widget .input-group .form-control::-webkit-input-placeholder {
-      color: #777777;
+      color: #000;
       font-weight: normal; }
     .blog_right_sidebar .search_widget .input-group .form-control:focus {
       box-shadow: none; }
@@ -1115,7 +1115,7 @@ button:focus {
     border: 0px;
     box-shadow: none;
     font-size: 14px;
-    color: #777777;
+    color: #000;
     font-weight: 700;
     padding: 0px;
     top: 50%;
@@ -1136,7 +1136,7 @@ button:focus {
       padding: 7px 0px 0px; }
       .blog_right_sidebar .author_widget .social_icon a {
         font-size: 14px;
-        color: #777777;
+        color: #000;
         transition: all 300ms linear 0s;
         transition: all 0.2s linear; }
         .blog_right_sidebar .author_widget .social_icon a + a {
@@ -1150,7 +1150,7 @@ button:focus {
     .blog_right_sidebar .popular_post_widget .post_item .media-body h3 {
       font-size: 16px;
       line-height: 20px;
-      color: #777777;
+      color: #000;
       margin-bottom: 4px;
       transition: all 0.3s linear; }
       .blog_right_sidebar .popular_post_widget .post_item .media-body h3:hover {
@@ -1190,13 +1190,13 @@ button:focus {
     background: #ffffff;
     padding-left: 20px; }
     .blog_right_sidebar .newsletter_widget input.placeholder {
-      color: #777777; }
+      color: #000; }
     .blog_right_sidebar .newsletter_widget input:-moz-placeholder {
-      color: #777777; }
+      color: #000; }
     .blog_right_sidebar .newsletter_widget input::-moz-placeholder {
-      color: #777777; }
+      color: #000; }
     .blog_right_sidebar .newsletter_widget input::-webkit-input-placeholder {
-      color: #777777; }
+      color: #000; }
     .blog_right_sidebar .newsletter_widget input:focus {
       outline: none; }
   .blog_right_sidebar .newsletter_widget .sub-btn {
@@ -1248,7 +1248,7 @@ button:focus {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #777777;
+  color: #000;
   border: none; }
 
 .blog-pagination .page-link .lnr {
@@ -1383,10 +1383,10 @@ button:focus {
     color: #cccccc;
     margin-bottom: 13px; }
   .comments-area .comment {
-    color: #777777;
+    color: #000;
     margin-bottom: 0px; }
   .comments-area .btn-reply {
-    background-color: #f1f9ff;
+    background-color: #000;
     color: #000;
     border: 0;
     padding: 0px 18px;
@@ -1427,12 +1427,12 @@ button:focus {
         padding-left: 0px; } }
   .comment-form .form-control {
     padding: 8px 20px;
-    background: #f1f9ff;
+    background: #000;
     border: none;
     border-radius: 0px;
     width: 100%;
     font-size: 14px;
-    color: #777777;
+    color: #000;
     border: 1px solid transparent; }
     .comment-form .form-control:focus {
       box-shadow: none;
@@ -1485,7 +1485,7 @@ button:focus {
     font-family: "Playfair Display", serif;
     font-weight: 500;
     line-height: 28px;
-    background: #f1f9ff;
+    background: #000;
     border-radius: 0px;
     transition: all 300ms linear 0s;
     margin-right: 10px;
@@ -1510,7 +1510,7 @@ button:focus {
         margin-bottom: 5px; }
       .main_blog_details .user_details .float-right .media .media-body p {
         font-size: 12px;
-        color: #777777;
+        color: #000;
         margin-bottom: 0px; }
     .main_blog_details .user_details .float-right .media .d-flex {
       padding-left: 14px;
@@ -1518,10 +1518,10 @@ button:focus {
       align-self: center; }
 .main_blog_details p {
   font-size: 14px;
-  color: #777777;
+  color: #000;
   margin-bottom: 15px; }
 .main_blog_details .blockquote {
-  background: #f1f9ff;
+  background: #000;
   padding: 30px;
   box-shadow: -20.84px 21.58px 30px 0px rgba(176, 176, 176, 0.1);
   margin: 35px 0px; }
@@ -1543,7 +1543,7 @@ button:focus {
       display: block; } }
   .main_blog_details .news_d_footer a {
     font-size: 14px;
-    color: #777777; }
+    color: #000; }
     @media (max-width: 380px) {
       .main_blog_details .news_d_footer a .lnr-bubble {
         margin-left: 30px; } }
@@ -1683,7 +1683,7 @@ button:focus {
     border: 0;
     border-radius: 0px;
     padding-left: 20px;
-    background: #f1f9ff; }
+    background: #000; }
     .contact_form .form-group .form-control:focus {
       box-shadow: none;
       outline: none; }
@@ -1996,7 +1996,7 @@ h6 {
   font-size: 14px; }
 
 .typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
-  color: #777777; }
+  color: #000; }
 
 .button-area .border-top-generic {
   padding: 70px 15px;
@@ -2332,7 +2332,7 @@ h6 {
 
 .ordered-list li span {
   font-weight: 300;
-  color: #777777; }
+  color: #000; }
 
 .ordered-list-alpha li {
   margin-left: 30px;
@@ -2343,7 +2343,7 @@ h6 {
 
 .ordered-list-alpha li span {
   font-weight: 300;
-  color: #777777; }
+  color: #000; }
 
 .ordered-list-roman li {
   margin-left: 30px;
@@ -2354,7 +2354,7 @@ h6 {
 
 .ordered-list-roman li span {
   font-weight: 300;
-  color: #777777; }
+  color: #000; }
 
 .single-input {
   display: block;
@@ -3053,7 +3053,7 @@ h6 {
 /*----------------------------------------------------*/
 /*============== footer-area css ===============*/
 .footer-area {
-  background: #f1f9ff;
+  background: #000;
   font-size: 16px; }
 
 .single-footer-widget.footer_middle {
@@ -3068,7 +3068,7 @@ h6 {
   .footer-bottom.footer_copy .footer-social {
     text-align: center; }
     .footer-bottom.footer_copy .footer-social a {
-      color: #777777; }
+      color: #000; }
       .footer-bottom.footer_copy .footer-social a:first-child {
         margin-left: 0px; }
       .footer-bottom.footer_copy .footer-social a:hover {
