@@ -1,0 +1,54 @@
+.header + h1 + nav + ul + li + a {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(241, 6, 6);
+}
+* {
+  /*Permet de retiré les marges et padding en bord de page*/
+  margin: 0;
+  padding: 0;
+}
+button {
+}
+.menu {
+  border: 2px solid rgb(66, 66, 163);
+  background-color: ;
+  padding: 0px 20px;
+  background-color: rgb(40, 40, 99);
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  font-size: 22px;
+  font-family: ;
+}
+.menu li {
+  display: block;
+  color: white;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.footer-container {
+  display: grid;
+  border: 3px solid rgb(73, 112, 219);
+  background: rgb(40, 40, 99);
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 100px;
+}
+.contenu-footer {
+  align-items: right;
+  color: white;
+}
