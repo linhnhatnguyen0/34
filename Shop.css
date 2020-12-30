@@ -8,7 +8,7 @@ html {
 body {
   width: 100%;
   font-family: ;
-  background-color: #ddd;
+  background-color: #fff;
 }
 /*--------------------------*\
   |          BANNIERE          |
@@ -40,15 +40,16 @@ ul {
   padding: 0px 20px;
 }
 ul > li > a {
-  padding: 1.6rem;
-  font-weight: bold;
-  margin: 15px;
-  padding: 15px;
-  font-size: 26px;
-  display: flex;
-  text-decoration: none;
-  color: white;
-
+    padding: 10rem;
+    font-weight: bold;
+    margin: 15px;
+    padding: 15px;
+    padding-right: 80px;
+    font-size: 22px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-family: 'Jura', sans-serif;
 }
 ul li a span {
   display: flex;
@@ -74,6 +75,36 @@ ul li a span {
   z-index: 100;
   width: 100%;
 }
+.input-button {
+    display: flex;
+    width: 50%;
+    background-color: #eee;
+    border: 0px;
+    margin-left: 100px;
+    height: 40px;
+    border-radius: 0.3rem;
+}
+
+    .input-button input {
+        width: 30%;
+        flex: 1;
+        padding: 1rem;
+        background-color: transparent;
+        border: 0px;
+        font-family: 'Play',sans-serif;
+    }
+
+    .input-button button {
+        background-color: #08aeea;
+        color: white;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding: 4px;
+        border: 0px;
+        height: 40px;
+        border-radius: 0.3rem;
+        font-family: 'Play',sans-serif;
+    }
 @media (min-width : 1000px) and (max-width: 2439px){
   .menu{
     grid-template-columns:  ;
@@ -251,57 +282,107 @@ a:hover{
 /*--------------------------*\
 |     FLEX/GRID PROD         |
 \---------------------------*/
-.titre-section{
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 30px;
-  text-align: center;
-  justify-content: center;
-  margin: 30px 5px;
-  color: rgb(255, 95, 37);
+.titre-section {
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    margin: 30px 5px;
+    color: rgb(255, 95, 37);
+    font-family: 'Varela Round', sans-serif;
 }
 
 /*Categorie*/
 .categorie {
-max-width: 1200px;
-margin: 40px auto;
-display: flex;
-flex-wrap: wrap;
-flex-basis: 0; /*Pour éviter au texte de redefinir la taille des flex*/
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 0; /*Pour éviter au texte de redefinir la taille des flex*/
 }
+
 .article {
- flex-grow: 1;
- min-width: 33%;
- border: 2px solid white;
- box-sizing: border-box;
- height: 300px;
- background-size: cover ;
- background-position: center;
+    flex-grow: 1;
+    min-width: 33%;
+    box-sizing: border-box;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
 }
-.descriptif-cat{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height:100%;
+
+.article {
+    margin: 0 auto;
+    perspective: 150rem;
 }
-.descriptif-cat > div{
-  padding: 5px 10px;
-  background-color: rgba(0, 0, 0, 0.329);
-  color: white;
-  font-size: 26px;
-  font-weight: bold;
-  text-transform: uppercase;
-  width: 100%;
-  text-align: center;
+
+.article-inner {
+    width: 100%;
+    height: 100%;
+    perspective: 1000px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
 }
-.descriptif-cat > div > a{
-  text-decoration: none;
-  color: white;
-  transition: 1s;
+
+.article:hover .article-inner {
+    transform: rotateY(180deg);
 }
-.descriptif-cat > div > a:hover{
-  color: orange;
+
+.article .front,
+.article .back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
+
+.article .back {
+    transform: rotateY(180deg);
+}
+
+.article img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+
+.back {
+    background-color: #ff8144;
+    border-radius: 2rem;
+}
+
+.descriptif-cat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+    .descriptif-cat > div {
+        color: white;
+        font-size: 45px;
+        font-weight: bold;
+        text-transform: uppercase;
+        width: 100%;
+        text-align: center;
+    }
+
+        .descriptif-cat > div > a {
+            text-decoration: none;
+            color: black;
+            transition: 1s;
+            font-family: 'Jura', sans-serif;
+        }
+
+            .descriptif-cat > div > a:hover {
+                color: white;
+            }
+
 /*Appercu des objet*/
 .apercu{
   margin-top: 20px;
@@ -316,6 +397,9 @@ flex-basis: 0; /*Pour éviter au texte de redefinir la taille des flex*/
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
+.filters h2 {
+    font-family: 'Nunito Sans', sans-serif;
+}
 .filters{
   background: rgba(252, 149, 65, 0.61);
   border: 1px solid white;
@@ -324,8 +408,9 @@ flex-basis: 0; /*Pour éviter au texte de redefinir la taille des flex*/
   box-sizing: border-box;
 
 }
-.filtre-content{
-  margin-bottom: 50px;
+.filtre-content {
+    margin-bottom: 50px;
+    font-family: 'Nunito Sans', sans-serif;
 }
 .filtre{
   display: block;
@@ -336,40 +421,52 @@ flex-basis: 0; /*Pour éviter au texte de redefinir la taille des flex*/
   display: block;
 }
 
-.titre-apercu{
-  text-align: center;
+.titre-apercu {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    font-family: 'Comfortaa', cursive;
+    font-size:40px;
 }
-.produit{
-  border: 1px solid white;
-  border-radius: 5px;
-  overflow: hidden;
-  box-sizing: border-box;
-  text-align: center;
+.produit {
+    border-radius: 1.2rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+    height: 370px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: #ff8144;
 }
-.img-produit{
-  height: 200px;
-  background-size: cover;
-  background-position: center;
+.img-produit {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+    border-radius: 1.2rem;
 }
-.btn-prod{
-  outline: none;
-  background: black;
-  font-family: ;
-  color: white;
-  padding: 10px 15px;
-  cursor: pointer;
-  text-transform: uppercase;
-  font-weight: bold;
-  border-radius: 5px;
-  font-size: 16px;
-  margin: 10px 0;
+.btn-prod {
+    border: 0px;
+    background: white;
+    font-family: Montserrat;
+    color: black;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 1rem;
+    font-size: 12px;
+    margin: 20px 0;
 }
-.nom-produit{
-  font-size: 20px;
-  font-weight: bold;
+.nom-produit {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Jura', sans-serif;
 }
-.prix-produit{
-  font-style: italic;
+.prix-produit {
+    font-style: italic;
+    font-family: 'Jura', sans-serif;
 }
 .deroulant {
   /*Hamburger*/

@@ -303,74 +303,102 @@
     color: orange;
   }
   /*Appercu des objet*/
-  .apercu{
+/*Appercu des objet*/
+.apercu {
     margin-top: 20px;
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 200px 1fr;
     gap: 15px;
-  }
-  .grid-produit{
+}
+
+.grid-produit {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-  }
-  .filters{
+}
+
+.filters h2 {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.filters {
     background: rgba(252, 149, 65, 0.61);
     border: 1px solid white;
     border-radius: 5px;
     padding: 20px;
     box-sizing: border-box;
-  
-  }
-  .filtre-content{
+}
+
+.filtre-content {
     margin-bottom: 50px;
-  }
-  .filtre{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.filtre {
     display: block;
     margin-right: 20px;
-  }
-  .filtre-content > strong{
+}
+
+.filtre-content > strong {
     margin: 10px 0px;
     display: block;
-  }
-  
-  .titre-apercu{
+}
+
+.titre-apercu {
     text-align: center;
-  }
-  .produit{
-    border: 1px solid white;
-    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 40px;
+}
+
+.produit {
+    border-radius: 1.2rem;
     overflow: hidden;
     box-sizing: border-box;
     text-align: center;
-  }
-  .img-produit{
+    height: 370px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: #ff8144;
+}
+
+.img-produit {
     height: 200px;
     background-size: cover;
     background-position: center;
-  }
-  .btn-prod{
-    outline: none;
-    background: black;
-    font-family: ;
-    color: white;
+    margin-bottom: 30px;
+    border-radius: 1.2rem;
+}
+
+.btn-prod {
+    border: 0px;
+    background: white;
+    font-family: Montserrat;
+    color: black;
     padding: 10px 15px;
     cursor: pointer;
     text-transform: uppercase;
     font-weight: bold;
-    border-radius: 5px;
-    font-size: 16px;
-    margin: 10px 0;
-  }
-  .nom-produit{
+    border-radius: 1rem;
+    font-size: 12px;
+    margin: 20px 0;
+}
+
+.nom-produit {
     font-size: 20px;
     font-weight: bold;
-  }
-  .prix-produit{
+    font-family: 'Jura', sans-serif;
+}
+
+.prix-produit {
     font-style: italic;
-  }
+    font-family: 'Jura', sans-serif;
+}
+
   .deroulant {
     /*Hamburger*/
     display: none;
