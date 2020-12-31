@@ -159,11 +159,11 @@ a:hover {
     }
 
     .input-button button {
-        background-color: #08aeea;
+        background-color: #ff8144;
         color: white;
-        padding-top:4px;
-        padding-bottom:4px;
-        padding:4px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding: 4px;
         border: 0px;
         height: 40px;
         border-radius: 0.5rem;
@@ -409,7 +409,11 @@ a:hover {
     margin: auto;
     margin-bottom: 30px;
     background: url(image/bgprod.png);
+    box-shadow: 5px 10px 20px -5px rgba(0, 0, 0, 0.2);
 }
+    .produit:hover {
+        box-shadow: 5px 10px 20px -5px rgba(0, 0, 0, 0.1);
+    }
 .img-produit{
   height: 200px;
   background-size: cover;
@@ -417,33 +421,37 @@ a:hover {
   margin-bottom: 30px;
   border-radius:2rem;
 }
-.btn-prod{
-  border:0px;
-  background:white;
-  font-family:Montserrat ;
-  color: black;
-  padding: 10px 15px;
-  cursor: pointer;
-  text-transform: uppercase;
-  font-weight: bold;
-  border-radius: 1rem;
-  font-size: 12px;
-  margin: 20px 0;
+.btn-prod {
+    border: 0px;
+    background: #ff8144;
+    font-family: Montserrat;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 2rem;
+    font-size: 12px;
+    margin: 20px 0;
+    box-shadow: 2.5px 5px 10px -2.5px rgba(0, 0, 0, 0.2);
 }
+    .btn-prod:hover {
+        box-shadow: none;
+    }
 .nom-produit {
     font-size: 20px;
     font-weight: bold;
     font-family: 'Jura', sans-serif;
-    color:#fff;
+    color: #ff8144;
 }
 .desc-produit {
     font-family: 'Jura', sans-serif;
-    color:#fff;
+    color: #ff8144;
 }
 .prix-produit {
     font-style: italic;
     font-family: 'Jura', sans-serif;
-    color:#fff;
+    color: #ff8144;
 }
 .deroulant {
   /*Hamburger*/
