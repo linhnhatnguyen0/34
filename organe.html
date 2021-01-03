@@ -30,8 +30,8 @@
                     <li id="Shop"><a href="Shop.html"> Shop <span></span></a>
                         <ul id="dropdown" role="menu">
                             <li><a href="Nano.html"> Nanites</a></li>
-                            <li><a href="Prothese.html"> Prothèse</a></li>
-                            <li><a href="organe.html"> Organes</a></li>
+                            <li><a href="Drone.html"> Assistances</a></li>
+                            <li><a href="Prothese.html"> Prothèses</a></li>
                         </ul>
                     </li>
                     <li id="compte"><a href="compte.html"> Login </a></li>
@@ -45,13 +45,13 @@
         </header>
         <div class="Banniere" > <img src="image/techbg.jpeg"></div>
         <div class="titre-section">
-            Section assistance robotique
+            Section organe augmenté
         </div>
-            <div class="categorie">
-                <div class="article" style="background-image: url('prod/wolf1.jpeg'")> 
+        <div class="categorie">
+                <div class="article" style="background-image: url('prod/lungs.jpeg')">
                     <div class="descriptif-cat">
                         <div>
-                           <a href="#">Assistances</a> 
+                           <a href="#">Organes Augmentés</a> 
                         </div>
                     </div>
                 </div>  
@@ -68,74 +68,61 @@
                         </h2>
                         <div class="wrap-filtres">
                             <div class="filtre-content">
-                                 <strong>
-                                     Drones
-                                 </strong>
-                                 <label class="filtre">
-                                    <input type="checkbox" > Surveillances
+                                <strong>
+                                    Organes
+                                </strong>
+                                <label class="filtre">
+                                   <input type="checkbox" > Vasculaires
+                                </label>
+                                <label class="filtre">
+                                    <input type="checkbox" > Optiques
+                                </label>
+                                <label class="filtre">
+                                    <input type="checkbox" > Autres
                                  </label>
-                                 <label class="filtre">
-                                     <input type="checkbox" > Defenses
-                                 </label>
-                                 <label class="filtre">
-                                     <input type="checkbox" > Autres
-                                  </label>
-                            </div>
+                           </div>
                         </div>
                     </div>
                 </div>
-                      <div class="grid-produit">
+                    <div class="grid-produit">
                         <div class="produit">
-                            <div class="img-produit" style="background-image: url('prod/wolf1.jpeg')"></div>
+                            <div class="img-produit" style="background-image: url('prod/lungs.jpeg')"></div>
                             <p class="nom-produit">
-                                X-Wolf-02
+                                LX9-Lungs
                             </p>
                             <p class="desc-produit">
-                                Drone de defense
+                                Poumons amélioré 
                             </p>
                             <p class="prix-produit">
-                               15 999€
+                                3 599€
                             </p>
-                            <a href="PageProduit/wolf.html"><button class="voir-produit">Voir Produit</button></a>
+                            <a href="PageProduit/lungs.html"><button class="voir-produit">Voir Produit</button></a>
                         </div>
                         <div class="produit">
-                            <div class="img-produit" style="background-image: url('prod/raven3.jpeg')"></div>
+                            <div class="img-produit" style="background-image: url('prod/heart1.jpeg');"></div>
                             <p class="nom-produit">
-                                Raven-09
+                                H1-X
                             </p>
                             <p class="desc-produit">
-                                Assistance robotique 
+                                Coeur méchanique 
                             </p>
                             <p class="prix-produit">
-                                3 899€
+                                2 499€
                             </p>
-                        <a href="PageProduit/raven.html"><button class="voir-produit">Voir Produit</button></a>
+                            <a href="PageProduit/heart.html"><button class="voir-produit">Voir Produit</button></a>
                         </div>
                         <div class="produit">
-                            <div class="img-produit" style="background-image: url('prod/drone.jpeg')"></div>
+                            <div class="img-produit" style="background-image: url('prod/eye.jpeg');"></div>
                             <p class="nom-produit">
-                                Watch-X
+                                E1-Y
                             </p>
                             <p class="desc-produit">
-                                Drone de surveillance
+                                Augmentation oculaire 
                             </p>
                             <p class="prix-produit">
-                                549€
+                                1 249€
                             </p>
-                        <a href="PageProduit/watchX.html"><button class="voir-produit">Voir Produit</button></a>
-                        </div>
-                        <div class="produit">
-                            <div class="img-produit" style="background-image: url('prod/drone2.jpeg')"></div>
-                            <p class="nom-produit">
-                                DEF-Y
-                            </p>
-                            <p class="desc-produit">
-                                Drone de defense
-                            </p>
-                            <p class="prix-produit">
-                                599€
-                            </p>
-                        <a href="PageProduit/defY.html"><button class="voir-produit">Voir Produit</button></a>
+                            <a href="PageProduit/eye.html"><button class="voir-produit">Voir Produit</button></a>
                         </div>
                 </div>
             </section>
@@ -162,9 +149,9 @@
                </div>
                <div class="middle-content">
                     <div class="theme">Nos services </div>
-                    <div> <a href="Contact.html">Nous trouver</a></div>
-                    <div> <a href="about.html">En savoir plus</a></div>
-               </div>
+                        <div> <a href="Contact.html">Nous trouver</a></div>
+                        <div> <a href="about.html">En savoir plus</a></div>
+                    </div>
                <div class="right-content">
                    <div class="theme">Subscribe us</div>
                    <form action="#">
@@ -182,26 +169,6 @@
         <div class="bas">
             <p>Copyright &#169; 2020 <span>PharmaTech</span> by Antoine & Alexandre</p>
         </div>
-        <script>
-            let hamburger = document.querySelector(".hamburger");
-            let cross = document.querySelector(".cross");
-            let ul = document.querySelector("ul");
-     
-            hamburger.onclick = () =>{
-                hamburger.style.opacity = 0;
-                hamburger.style.visibility = "hidden";
-                cross.style.opacity = 1;
-                cross.style.visibility = "visible";
-                ul.style.top = "80px";
-            }
-            cross.onclick = () =>{
-                hamburger.style.opacity = 1;
-                hamburger.style.visibility = "visible";
-                cross.style.opacity = 0;
-                cross.style.visibility = "hidden";
-                ul.style.top = "-600px";
-            }
-        </script>
     </body>
     <script>  
        window.addEventListener('scroll', function (e) {
@@ -217,5 +184,25 @@
    });
        }, false);
    </script>
+      <script>
+        let hamburger = document.querySelector(".hamburger");
+        let cross = document.querySelector(".cross");
+        let ul = document.querySelector("ul");
+ 
+        hamburger.onclick = () =>{
+            hamburger.style.opacity = 0;
+            hamburger.style.visibility = "hidden";
+            cross.style.opacity = 1;
+            cross.style.visibility = "visible";
+            ul.style.top = "80px";
+        }
+        cross.onclick = () =>{
+            hamburger.style.opacity = 1;
+            hamburger.style.visibility = "visible";
+            cross.style.opacity = 0;
+            cross.style.visibility = "hidden";
+            ul.style.top = "-600px";
+        }
+    </script>
 </html>
 

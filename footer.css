@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Play", sans-serif;
+}
+footer {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  background: rgb(26, 26, 26);
+  box-sizing: border-box;
+}
+
+.footer-container {
+  max-width: 95%; 
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer > .footer-content > p,
+a {
+  color: white;
+  transition: 0.5s;
+  font-size: 18px;
+  font-family: "Play", sans-serif;
+}
+footer > .footer-content > p,
+a:hover {
+  color: #fb5118;
+}
+footer > .footer-container > .left-content {
+  width: 33%;
+}
+.theme {
+  font-size: 25px;
+  font-weight: 600;
+  color: aliceblue;
+  margin-bottom: 16px;
+  font-family: "Jura", sans-serif;
+}
+
+footer > .footer-container > .left-content > .up > p {
+  text-align: justify;
+  color: white;
+  word-wrap: break-word;
+  font-size: 18px;
+  font-family: "Play", sans-serif;
+}
+footer > .footer-container > .left-content > .low > .theme {
+  margin: 24px 0 16px 0;
+}
+footer > .footer-container > .left-content > .low > div > a > label {
+  padding-right: 15px;
+}
+footer > .footer-container > .middle-content {
+  padding-left: 0px;
+}
+footer .footer-container .middle-content .theme a {
+  /*9.30*/
+  line-height: 20px;
+}
+footer > .footer-container > .right-content > form > input[type="text"] {
+  height: 45px;
+  width: 97%;
+  outline: none;
+  color: #fb5118;
+  background: white;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 2px solid white;
+  font-family: "Play", sans-serif;
+}
+footer > .footer-container > .right-content > form > input[type="submit"] {
+  height: 43px;
+  width: 100%;
+  font-size: 18px;
+  background:#fb5118;
+  color: white;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  margin-top: 12px;
+  border: 2px solid#fb5118;
+  transition: 0.5s ease-in-out;
+  font-family: "Play", sans-serif;
+}
+footer
+  > .footer-container
+  > .right-content
+  > form
+  > input[type="submit"]:hover {
+  color: orange;
+  background: none;
+}
+.bas {
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 0px 0 5px 0px;
+  background: #fb5118;
+}
+.bas > p > span {
+  color: rgb(12, 22, 66);
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Play", sans-serif;
+}
+footer > .footer-container > .right-content > form > .reseaux > a > img {
+  margin: 15px 5px 0 0;
+}
+@media (max-width: 1100px) {
+  footer > .footer-container > .middle-content {
+    padding-left: 0px;
+  }
+  footer > .footer-content > p,
+  a {
+    color: white;
+    transition: 0.5s;
+    font-size: 15px;
+  }
+  .theme {
+    font-size: 22px;
+  }
+  footer > .footer-container > .left-content > .up > p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 950px) {
+  footer > .footer-container > .left-content {
+    width: 50%;
+  }
+  .right-content {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 580px) {
+  footer > .footer-container > .left-content {
+    width: 100%;
+  }
+  footer > .footer-container > .middle-content {
+    padding-top: 15px;
+  }
+}

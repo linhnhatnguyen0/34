@@ -5,7 +5,7 @@
         <meta name="description de la page" content="A compléter pour le referencement"><!--Description du site, apparait notamment dans la description google-->
         <meta charset="utf-8">
         <meta name="robots" content="index, follow, aussi pour le referencement"><!--index du site, apparait notamment dans la description google-->
-        <link rel="icon" href="image/Phoenix-detoure.png"><!--Icone de l'onglet de site-->
+        <link rel="icon" href="/image/Phoenix-detoure.png"><!--Icone de l'onglet de site-->
         <meta name="viewport" content="width=device-width, initial-scale=1"><!--toujours afficher l'entiereté de la page peu importe la largeur-->
         <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -14,7 +14,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="about.css">
+        <link rel="stylesheet" href="sign.css">
         <link rel="stylesheet" href="header.css">
         <link rel="stylesheet" href="footer.css">
         <script src="https://kit.fontawesome.com/3b3be1baf7.js" crossorigin="anonymous"></script>
@@ -31,7 +31,7 @@
                         <ul id="dropdown" role="menu">
                             <li><a href="Nano.html"> Nanites</a></li>
                             <li><a href="Drone.html"> Assistances</a></li>
-                            <li><a href="Prothese.html"> Prothèses</a></li>
+                            <li><a href="Prothese.html"> Prothèse</a></li>
                             <li><a href="organe.html"> Organes</a></li>
                         </ul>
                     </li>
@@ -44,96 +44,95 @@
                 </div>
             </nav>           
         </header>
-        <div class="Banniere" style="background-image: url(image/arm.jpeg);" > 
-            <div class="overlay">
-                <h1>PharmaTech</h1>
-                <p> La perfection comme objectif</p>
+        <div class="Banniere" > <img src="image/techbg.jpeg"></div>
+        <div class="titre-section">
+            Sing-Up
+        </div>
+        <div class="categorie">
+        </div>
+            <div class="wrap-form">
+                <h1>S'inscrire</h1>
+                <hr>
+                <form >
+                    <input class="user-box" type="Name" name="fname" placeholder="Nom" required>
+                    <input class="user-box" type="Prenom" name="lname" placeholder="Prenom" required>
+                    <input class="mail-box" type="email" name="email" placeholder="Saisir votre adresse e-mail" required>
+                    <input class="mdp-box" type="password" name="password" placeholder="Saisir un mot de passe (12 caractère min)" required minlength="12">
+                    <div class="date-nai">Date de naissance: </div>
+                        <div class="birthday">
+                            <select name="jour" title="jour" class="birth" required>
+                                <option value="jour">Jour</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                            </select>
+                            <select name="mois" title="mois" class="birth" required>
+                                <option value="mois">Mois</option>
+                                <option value="mois">Janvier</option>
+                                <option value="mois">Février</option>
+                                <option value="mois">Mars</option>
+                                <option value="mois">Avril</option>
+                                <option value="mois">Mai</option>
+                                <option value="mois">Juin</option>
+                                <option value="mois">Juillet</option>
+                                <option value="mois">Août</option>
+                                <option value="mois">Septembre</option>
+                                <option value="mois">Octobre</option>
+                                <option value="mois">Novembre</option>
+                                <option value="mois">Décembre</option>
+                            </select>
+                            <input type="number" id="année"title="année" class="birth" required min="2058" max="2177" maxlength="4"> </input>
+                        </div>
+                    <div class="genre-h">Genre</div>
+                    <div class="genre-wrapper">
+                        <div class="genre-box">
+                            <label class="genre-label" for="genre">Femme</label>
+                            <input type="radio" class="radio" name="genre" value="Femme"> 
+                        </div>  
+                        <div class="genre-box">
+                            <label class="genre-label" for="genre">Homme</label>
+                            <input type="radio" class="radio" name="genre" value="Homme"> 
+                        </div>  
+                        <div class="genre-box">
+                            <label class="genre-label" for="genre">Perso</label>
+                            <input type="radio" class="radio" name="genre" value="ind"> 
+                        </div>  
+                    </div>
+                    <button type="btn" class="btn-sign">S'inscrire</button>
+                    <hr>
+                    <p class="ou"> Déjà inscrit ? <a href="compte.html" class="oup">Se connecter</a></p>
+                </form>
             </div>
         </div>
-        <div class="section1">
-            <div class="contenu">
-                <div class="up-about">
-                    <h2>About Us</h2>
-                    <p>
-                        Vous nous faites confiance depuis plus de 150 ans, ce dont nous vous sommes reconnaissants.
-                        PharmaTech a été créée en 2074 pour répondre à la demande croissante d'amélioration corporelle.
-                        À l'époque, il était courant d'installer des prothèses sur le marché noir, qui s'avérer être défectueuse ou source de problèmes pour votre santé.
-                        Dans cette optique, nos deux fondateurs ont depuis établi une alternative à laquelle vous adhérez: une technologie de pointe, 
-                        des prix imbattables sur le marché et le plus important est la chirurgie à faible coût dans nos centres.
-                    </p>
-                    <p>   
-                        Spécialisé dans la bio-ingénierie, le pharmaceutique et les assistances mechaniques, 
-                        nous nous efforçons d'innover pour vous offrir le meilleurs de
-                        ces domaines. Nous recrutons les meilleurs talents dans ces branches pour vous offrir une qualité et des prix imbattable.                       
-                    </p>
-                    <p>
-                        A nos yeux, votre santé n'a pas de prix, c'est de ce maitre mot que sont née nos complexes chirurgicaux. Nous vous offrons les frais d'opérations,
-                        et mettons à votre disposition les meilleurs chirurgiens. Avec PharmaTech, les rejets, les produits défectueux, les infections ne sont plus qu'un sombre souvenir du passé.
-                    </p>
-                    <p>
-                        Nous mettons régulièrement à jour notre catalogue, et vous pouvez consulter nos articles et les avis de ceux qui les ont adoptés sur notre site Web. De plus, vous pouvez nous suivre sur nos réseaux sociaux,
-                        vous y trouverez des informations sur nos recherches en cours, nos produits à venir ainsi que nos offres promotionnelles du moment.
-                    </p>
-                    <p>
-                        Nous sommes à votre disposition pour toutes demandes d'information.
-                    </p>
-                </div>
-                <div class="low-about">
-                    <div class="down-left">
-                        <h2> 2074</h2>
-                        <p>La date où PharmaTech fut fondé</p>
-                    </div>
-                    <div class="down-middle">
-                        <h2>116 000</h2>
-                        <p>Le nombre de membres au sein de notre société</p>
-                    </div>
-                    <div class="down-left">
-                        <h2>6126</h2>
-                        <p>Le nombre de salles d'opération</p>
-                    </div>
-                </div>
-            </div>
         </div>
-        <div class="Banniere2" style="background-image: url(image/operating.jpeg);">  </div>
-        <div class="section2">
-            <div class="contenu">
-                <div class="up-about">
-                    <h2>Nos Valeurs</h2>
-                    <p>Toutes nos innovations sont accompagnées des valeurs de notre société qui ont vos intérêts comme moteur.</p>
-                </div> 
-                <div class="grid-valeurs">
-                    <div class="inner-grid">
-                        <h1><span>01</span> Votre santé</h1>
-                        <h1><span>02</span> Votre budget</h1>
-                        <h1><span>03</span> Vos performances</h1>
-                    </div>
-                    <div class="inner-grid">
-                        <h1><span>04</span> La qualité</h1>
-                        <h1><span>05</span> Le confort</h1>
-                        <h1><span>06</span> Les garanties</h1>
-                   </div>
-                </div>
-            </div>
-        </div>
-        <div class="Banniere3" style="background-image: url(image/bla.jpeg);"> </div>
-        <div class="section3">
-            <div class="contenu">
-                <div class="up-about">
-                    <h2>Vision</h2>
-                    <p>
-                        Nous aspirons à améliorer votre quotidien dans une société ou les augmentations sont la base de la productivité. Pour ce faire nous optimisons chaque coût
-                        afin de vous fournir un rapport qualité-prix imbattable.
-                    </p>
-                    <p>
-                        L'hygiène et les garantis d'opération sans rejet sont des intêret que nous partageons et nous faisont tout pour maintenir cet indice à 0%.
-                    </p>
-                    <p>
-                        Votre confiance est notre moteur, nous prenons vos avis très à coeur pour vous fournir ce dont VOUS avez besoin.
-                    </p>
-                </div> 
-            </div>
-        </div>
-        <div class="Banniere4" style="background-image: url(image/assist.jpeg);"> </div>
         </section>
         <footer>
             <div class="footer-container">
@@ -173,10 +172,10 @@
                    </form>
                </div>
             </div>
+            <div class="bas">
+                <p>Copyright &#169; 2020 <span>PharmaTech</span> by Antoine & Alexandre</p>
+            </div>
         </footer>
-        <div class="bas">
-            <p>Copyright &#169; 2020 <span>PharmaTech</span> by Antoine & Alexandre</p>
-        </div>
     </body>
     <script>  
        window.addEventListener('scroll', function (e) {

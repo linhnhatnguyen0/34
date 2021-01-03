@@ -1,68 +1,62 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
-<head>
-    <title>PharmaTech</title>
-    <meta name="description de la page" content="A compléter pour le referencement"><!--Description du site, apparait notamment dans la description google-->
-    <meta charset="utf-8">
-    <meta name="robots" content="index, follow, aussi pour le referencement"><!--index du site, apparait notamment dans la description google-->
-    <link rel="icon" href="image/Phoenix-detoure.png"><!--Icone de l'onglet de site-->
-    <meta name="viewport" content="width=device-width, initial-scale=1"><!--toujours afficher l'entiereté de la page peu importe la largeur-->
-    <link rel="stylesheet" href="Nano.css">
-    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
-</head>
+    <head>
+        <title>PharmaTech</title>
+        <meta name="description de la page" content="A compléter pour le referencement"><!--Description du site, apparait notamment dans la description google-->
+        <meta charset="utf-8">
+        <meta name="robots" content="index, follow, aussi pour le referencement"><!--index du site, apparait notamment dans la description google-->
+        <link rel="icon" href="image/Phoenix-detoure.png"><!--Icone de l'onglet de site-->
+        <meta name="viewport" content="width=device-width, initial-scale=1"><!--toujours afficher l'entiereté de la page peu importe la largeur-->
+        <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="catProduct.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="footer.css">
+        <script src="https://kit.fontawesome.com/3b3be1baf7.js" crossorigin="anonymous"></script>
+    </head>
     <body>    
         <header>
             <nav class="navbar">
-                <div class="deroulant"><label for="hamburger">&#9776</label></div>     
-                <div class="menu">
-                    <img class="logo" src="image/Phoenix-detoure.png" alt="logo">
-                    <ul>
-                        <li id="home"><a href="Index.html"> Home </a></li>
-                        <li id="Shop"><a href="Shop.html"> Shop <span></span></a>
-                            <ul id="dropdown" role="menu">
-                                <li class="ss2"><a href="Drone.html"> Assistance</a></li>
-                                <li class="ss3"><a href="Prothese.html"> Prothèse</a></li>
-                            </ul>
-                        </li>
-                        <li id="signup"><a href="Contact.html"> Compte </a></li>
-                        <li id="panier"><a href="panier.html">Panier</span></a></li>
-                    </ul>
-                    <form>
-                        <input type="text" class="search" placeholder="Recherche" name="Recherche" required>
-                        <button class="bouton-saisie" type="submit"></button>
-                    </form>
+                <div class="logo"></div>
+                <span class="hamburger"><label id="hamburger">&#9776</label></span>
+                <span class="cross"><label id="cross">&#10006</label></span>
+                <ul>
+                    <li id="home"><a href="Index.html"> Home </a></li>
+                    <li id="Shop"><a href="Shop.html"> Shop <span></span></a>
+                        <ul id="dropdown" role="menu">
+                            <li><a href="Drone.html"> Assistances</a></li>
+                            <li><a href="Prothese.html"> Prothèse</a></li>
+                            <li><a href="organe.html"> Organes</a></li>
+                        </ul>
+                    </li>
+                    <li id="compte"><a href="compte.html"> Login </a></li>
+                    <li id="signup"><a href="sign.html">Sign</span></a></li>
+                </ul>
+                <div class="search">
+                    <input type="text" placeholder="Recherche...">
+                    <span class="loupe"><i class="fas fa-search"></i></span>
                 </div>
-            </nav>
+            </nav>           
         </header>
-        <div class="Banniere">
-            <div class="banniere-content">
-                <h2>
-                    Slogan
-                </h2>
-            </div>
-        </div>
+        <div class="Banniere" > <img src="image/techbg.jpeg"></div>
         <div class="titre-section">
-            Boutique
+            Section Nano-technologie
         </div>
         <div class="categorie">
-                <div class="article" style="background-image: url('prod/heal.jpg'")>
-                    <div class="descriptif-cat">
-                        <div>
-                            <a href="Nano.html">Nano-Tech</a> 
-                        </div>
+            <div class="article" style="background-image: url('prod/heal.jpeg'")>
+                 <div class="descriptif-cat">
+                    <div>
+                        <a href="Nano.html">Nano-Tech</a> 
                     </div>
                 </div>
+            </div>
         </div>
+        <hr style="width:50%;text-align:center;margin:auto;height:1.5px;background-color:orangered;border-width:0;margin-top:80px; margin-bottom: 80px;">
             <h2 class="titre-apercu">
                 Apperçu des produits
             </h2>
@@ -78,10 +72,10 @@
                                      NanoTech
                                  </strong>
                                  <label class="filtre">
-                                    <input type="checkbox" > Soin
+                                    <input type="checkbox" > Soins
                                 </label>
                                 <label class="filtre">
-                                      <input type="checkbox" > Renforcement
+                                      <input type="checkbox" > Renforcements
                                 </label>
                                 <label class="filtre">
                                       <input type="checkbox" > Autres
@@ -92,162 +86,76 @@
                 </div>
                       <div class="grid-produit">
                         <div class="produit">
-                            <div class="img-produit" style="background-image: url('prod/arm1.jpg')"></div>
+                            <div class="img-produit" style="background-image: url('prod/nano.jpeg')"></div>
                             <p class="nom-produit">
-                                Exo-0076
+                                Repair-02
                             </p>
                             <p class="desc-produit">
-                                Bras exo 
+                                Nano-machine de maintenance 
                             </p>
                             <p class="prix-produit">
-                                2 599€
+                                44€
                             </p>
-                            <button class="btn-prod">
-                                voir produit
-                            </button>
+                            <a href="PageProduit/nano.html"><button class="voir-produit">Voir Produit</button></a>
                         </div>
                         <div class="produit">
-                            <div class="img-produit" style="background-image: url('prod/arm1.jpg')"></div>
+                            <div class="img-produit" style="background-image: url('prod/heal.jpeg')"></div>
                             <p class="nom-produit">
-                                Exo-0076
+                                Heal-X
                             </p>
                             <p class="desc-produit">
-                                Bras exo 
+                                Nano-Machine médicale
                             </p>
                             <p class="prix-produit">
-                                2 599€
+                                75€
                             </p>
-                            <button class="btn-prod">
-                                voir produit
-                            </button>
-                        </div>
-                        <div class="produit">
-                            <div class="img-produit" style="background-image: url('prod/arm1.jpg')"></div>
-                            <p class="nom-produit">
-                            Exo-0076
-                        </p>
-                        <p class="desc-produit">
-                            Bras exo 
-                        </p>
-                        <p class="prix-produit">
-                            2 599€
-                        </p>
-                        <button class="btn-prod">
-                            voir produit
-                        </button>
-                        </div>
-                        <div class="produit">
-                            <div class="img-produit" style="background-image: url('prod/arm1.jpg')"></div>
-                            <p class="nom-produit">
-                            Exo-0076
-                        </p>
-                        <p class="desc-produit">
-                            Bras exo 
-                        </p>
-                        <p class="prix-produit">
-                            2 599€
-                        </p>
-                        <button class="btn-prod">
-                            voir produit
-                        </button>
-                        </div>
-                        <div class="produit">
-                        <div class="img-produit" style="background-image: url('prod/arm1.jpg')"></div>
-                        <p class="nom-produit">
-                            Exo-0076
-                        </p>
-                        <p class="desc-produit">
-                            Bras exo 
-                        </p>
-                        <p class="prix-produit">
-                            2 599€
-                        </p>
-                        <button class="btn-prod">
-                            voir produit
-                        </button>
-                        </div>
-                        <div class="produit">
-                            <div class="img-produit" style="background-image: url('prod/arm1.jpg')"></div>
-                            <p class="nom-produit">
-                                Exo-0076
-                        </p>
-                        <p class="desc-produit">
-                            Bras exo 
-                        </p>
-                        <p class="prix-produit">
-                            2 599€
-                        </p>
-                        <button class="btn-prod">
-                            voir produit
-                        </button>
-                        </div>
-                        <div class="produit">
-                            <div class="img-produit" style="background-image: url('prod/arm1.jpg')"></div>
-                            <p class="nom-produit">
-                                Exo-0076
-                        </p>
-                        <p class="desc-produit">
-                            Bras exo 
-                        </p>
-                        <p class="prix-produit">
-                            2 599€
-                        </p>
-                        <button class="btn-prod">
-                            voir produit
-                        </button>
-                        </div>
-                        <div class="produit">
-                            <div class="img-produit" style="background-image: url('prod/arm1.jpg')"></div>
-                            <p class="nom-produit">
-                                Exo-0076
-                        </p>
-                        <p class="desc-produit">
-                            Bras exo 
-                        </p>
-                        <p class="prix-produit">
-                            2 599€
-                        </p>
-                        <button class="btn-prod">
-                            voir produit
-                        </button>
-                     </div>
+                            <a href="PageProduit/heal.html"><button class="voir-produit">Voir Produit</button></a>
+                        </div>        
                 </div>
             </section>
         </section>
         <footer>
             <div class="footer-container">
-                <div class="left-content">
-                <h2>Nous trouver</h2>
-                    <ul>
-                        <li><a id="#" href="#"> ? </a></li>
-                        <li><a id="Shop" href="#"> Nous trouver </a></li>
-                        <li><a id="About" href="about.html"> A propos de nous </a></li>
-                        <li><a id="Contact" href="Contact.html"> Contact </a></li>
-                    </ul>
-                </div>
-                <div class="middle-content">
-                <h2>Moyens de paiement</h2>
-                    <ul>
-                        <li><a id="#" href="Projet.html"> ? </a></li>
-                        <li><a id="#" href="Shop.html"> ? </a></li>
-                        <li><a id="#" href="about.html"> ?</a></li>
-                        <li><a id="#" href="Contact.html"> ? </a></li>
-                    </ul>
-                </div>
-                <div class="reseaux">
-                <h2>Nos reseaux</h2>
-                    <ul>
-                        <li><a href="#" class="twitter"><img src="image/Twitter.ico" wheight="25" height="25" alt="Redirection sous forme de logo vers twitter" ></a></li>
-                        <li><a href="#" class="facebook"><img src="image/Facebook.ico" wheight="25" height="25" alt="Redirection sous forme de logo vers Facebook"></a></li>
-                        <li><a href="#" class="instagram"><img src="image/Instagram.ico"wheight="25" height="25"  alt="Redirection sous forme de logo vers instagram"></a></li>
-                    </ul>
-                </div>
+               <div class="left-content">
+                   <div class="up">
+                       <div class="theme">A propos de nous</div>
+                       <p>
+                        Leader dans les domaines de la bio-ingénierie, pharmaceutique et assistance en tous genres, 
+                        nous mettons notre savoir-faire à votre service depuis plus de 150 ans.
+                       </p>
+                   </div>
+                   <div class="low">
+                       <div class="theme">Nous contacter</div>
+                       <div class="tel">
+                            <a href="#"><label>&#9990;</label> +356 053 356 152</a>
+                       </div>
+                       <div class="mail">
+                           <a href="#"><label>&#9993;</label> abc@pharmatech.com</a>
+                       </div>
+                   </div>
+               </div>
+               <div class="middle-content">
+                    <div class="theme">Nos services </div>
+                        <div> <a href="Contact.html">Nous trouver</a></div>
+                        <div> <a href="about.html">En savoir plus</a></div>
+                    </div>
+               <div class="right-content">
+                   <div class="theme">Subscribe us</div>
+                   <form action="#">
+                    <input type="text" name="email" placeholder="Entrer votre adresse mail"  required>
+                    <input type="submit" name="" value="Envoyer">
+                    <div class="reseaux"> 
+                        <a href="#"><img src="image/fb.webp"width="10%"></a>
+                        <a href="#"><img src="image/Instagram.ico" width="10%"></a>
+                        <a href="#"><img src="image/Twitter.ico" width="10%"></a>
+                    </div>
+                   </form>
+               </div>
             </div>
         </footer>
-        <div class="container-cr">
-            <p>Created by Antoine & Alexandre 2020 copyright</p>
+        <div class="bas">
+            <p>Copyright &#169; 2020 <span>PharmaTech</span> by Antoine & Alexandre</p>
         </div>
-
     </body>
     <script>  
        window.addEventListener('scroll', function (e) {
@@ -263,5 +171,25 @@
    });
        }, false);
    </script>
+         <script>
+            let hamburger = document.querySelector(".hamburger");
+            let cross = document.querySelector(".cross");
+            let ul = document.querySelector("ul");
+     
+            hamburger.onclick = () =>{
+                hamburger.style.opacity = 0;
+                hamburger.style.visibility = "hidden";
+                cross.style.opacity = 1;
+                cross.style.visibility = "visible";
+                ul.style.top = "80px";
+            }
+            cross.onclick = () =>{
+                hamburger.style.opacity = 1;
+                hamburger.style.visibility = "visible";
+                cross.style.opacity = 0;
+                cross.style.visibility = "hidden";
+                ul.style.top = "-600px";
+            }
+        </script>
 </html>
 

@@ -1,0 +1,271 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Play", sans-serif;
+}
+nav{
+   position: relative;
+   width: 100%;
+   height: 100px;
+   background-color: transparent;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   padding: 0 7%;
+   box-sizing: border-box;
+   position: fixed;
+   border-bottom: 1px solid rgba(128, 128, 128, 0.233);
+   transition: 0.5s;
+   z-index: 2;
+ }
+ nav > span{
+   display: none;
+ }
+.logo{
+  background-image: url(image/Phoenix-detoure.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 15vh;
+  height: 25vh;
+  margin-right: auto;
+}
+ ul > li{
+   padding: 20px 0 20px 0;
+ }
+ ul{
+   display: flex;
+   margin-right: 50px;
+   list-style: none;
+ }
+ ul li a{
+   font-size: 28px;
+   text-decoration: none;
+   color: white;
+   margin: 0 18px;
+   transition: 0.8s;
+   font-family: 'Jura', sans-serif;
+ }
+ ul li a:hover{
+   color: #fb5118;
+ }
+ .search{
+   width: 250px;
+   height: 35px;
+   position: relative;
+ }
+ .search > input{
+   width: 100%;
+   height: 100%;
+   font-size: 18px;
+   padding-left: 15px;
+   border-radius: 5px;
+   color: #fb5118;
+   outline: none;
+   border: none;
+   font-family: 'Play',sans-serif;
+ }
+ .search > span{
+   display: inline-block;
+   width: 35px;
+   height: 35px;
+   text-align: center;
+   line-height: 35px;
+   background-color: #fb5118;
+   border-radius: 0 5px 5px 0;
+   position: absolute;
+   top: 0;
+   right: -20px;
+   cursor: pointer;
+ }
+ /*GRID AREA DECLARATION & ANIMATION*/
+ #home {
+   position: relative;
+   overflow: hidden;
+   transition: 0.8s;
+   z-index: 1;
+   background-color: transparent;
+ }
+ #home::before {
+   content: '';
+   background: white;
+   position: absolute;
+   left: -103%;
+   top: 98%;
+   width: 100%;
+   z-index: -1;
+   border: 1px solid white;
+   transition: 0.8s;
+ }
+ #home:hover::before{
+   left: 0%;
+ }
+ #compte {
+   position: relative;
+   overflow: hidden;
+   transition: 0.8s;
+   z-index: 1;
+   background-color: transparent;
+ }
+ #compte::before {
+   content: '';
+   background: white;
+   position: absolute;
+   left: -103%;
+   top: 98%;
+   width: 100%;
+   z-index: -1;
+   border: 1px solid white;
+   transition: 0.8s;
+   border
+ }
+ #compte:hover::before{
+   left: 0%;
+ }
+ #signup {
+   position: relative;
+   overflow: hidden;
+   transition: 0.8s;
+   z-index: 1;
+   background-color: transparent;
+ }
+ #signup::before {
+   content: '';
+   background: white;
+   position: absolute;
+   left: -103%;
+   top: 98%;
+   width: 100%;
+   z-index: -1;
+   border: 1px solid white;
+   transition: 0.8s;
+ }
+ #signup:hover::before{
+   left: 0%;
+ }
+ /*--------------------------*\
+ |          DROPDOWN          |
+ \---------------------------*/
+
+ nav > ul > li > #dropdown{
+   display: block;
+   position: absolute;
+   top: 100px;
+   transition: 0.5s;
+   visibility: hidden;
+   opacity: 0;
+ }
+
+ nav > ul > li > #dropdown > li {
+   width: 100%;
+ }
+ #Shop:hover #dropdown {
+   visibility: visible;
+   opacity: 1;
+ }
+ #dropdown ul li a:hover {
+   color: #fb5118;
+ }
+ #dropdown li:hover {
+   transition: 0.4s;
+   box-shadow: inset 0 2px #fb5118;
+ }
+  /*--------------------------*\
+ |          SCRIPT             |
+ \---------------------------*/
+ nav.scroll   {
+  /*Class du script*/
+  background: black;
+  border-bottom: none;
+  width: 100%;
+}
+nav.scroll  ul{
+  /*Class du script*/
+  background: black;
+  transition: 0.8s;
+  border-radius: 0 0 5px 5px;
+}
+ /*--------------------------*\
+ |         MEDIA              |
+ \---------------------------*/
+ @media screen and (max-width: 880px) {
+  .logo{
+    display: none;
+  }
+  .Banniere > h2{
+    font-size:30px;
+    padding-left: 10%;
+  }
+  .Banniere > h3{
+    font-size: 20px;
+    padding-left: 10%;
+  }
+  nav{
+    background-color: black;
+  }
+  nav > ul{
+    background-color: black;
+  }
+    nav ul li {
+      width: 100%;
+      padding: 24px 0;
+    }
+    .article{
+      min-width: 100%;
+    }
+    nav > span{
+      display: block;
+      position: absolute;
+      line-height: 80px;
+      left: 40px;
+      font-size: 30px;
+      text-align: center;
+      cursor: pointer;
+      transition:  0.5s;
+      color: white;
+    }
+    nav > span:hover{
+      color: #fb5118;
+    }
+    nav > span:nth-child(3){
+      opacity: 0;
+      visibility: hidden;
+    }
+    ul{
+      position: absolute;
+      top: -600%;
+      left: 0;
+      display: block;
+      width: 100%;
+      z-index: -2;
+      transition: 0.5s;
+    }
+    ul > li{
+      width: 100%;
+    }
+    ul > li > a{
+      width: 100%;
+      text-align: center;
+      display: block;
+      font-size: 25px;
+      line-height: 80px;
+    }
+    #dropdown > li{
+      display: none;
+    }
+    #home::before{
+      border: none;
+    }
+    #compte::before{
+      border: none;
+    }
+    #signup::before{
+      border: none;
+    }
+  }
+  @media (max-width: 350px){
+    .search{
+      width:200px;
+    }
+  }

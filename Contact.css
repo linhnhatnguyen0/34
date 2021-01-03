@@ -1,54 +1,196 @@
-.header + h1 + nav + ul + li + a {
-  list-style: none;
-  text-decoration: none;
-  color: rgb(241, 6, 6);
-}
 * {
-  /*Permet de retiré les marges et padding en bord de page*/
-  margin: 0;
-  padding: 0;
-}
-button {
-}
-.menu {
-  border: 2px solid rgb(66, 66, 163);
-  background-color: ;
-  padding: 0px 20px;
-  background-color: rgb(40, 40, 99);
-  min-width: 100%;
-  margin: 0;
-  padding: 0;
-}
-.menu ul {
-  display: flex;
-  align-items: center;
   padding: 0;
   margin: 0;
-  font-size: 22px;
+  text-decoration: none;
+  font-family: "Play", sans-serif;
+}
+body {
+  width: 100%;
   font-family: ;
+  background-color: #ddd;
+  background-image: url(image/t7.jpeg);
+  background-size: cover;
 }
-.menu li {
-  display: block;
+/*--------------------------*\
+|          NAVBAR            |
+\---------------------------*/
+nav {
+  background-color: black;
+}
+ul {
+  background-color: black;
+  border-radius: 0 0 5px 5px;
+}
+/*--------------------------*\
+  |          BANNIERE          |
+  \---------------------------*/
+.Banniere {
+  width: 100%;
+  height: 10em;
+  z-index: -2;
+}
+/*--------------------------*\
+|     FLEX/GRID PROD         |
+\---------------------------*/
+.titre-section > h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  margin: 30px 5px;
+  color: #fb5118;
+}
+p {
+  text-align: center;
   color: white;
-  padding: 15px;
+}
+.page {
+  display: flex;
   flex-wrap: wrap;
 }
-a {
-  text-decoration: none;
-  color: white;
+.wrap-map {
+  width: 98%;
+  margin: 4% auto 0;
 }
-.footer-container {
-  display: grid;
-  border: 3px solid rgb(73, 112, 219);
-  background: rgb(40, 40, 99);
-  margin: 0;
-  padding: 0;
-  position: fixed;
+.content-map {
+  max-width: 550px;
+  margin: 0 auto;
+  background: rgba(247, 247, 247, 0.185);
+  padding: 30px;
+  border-radius: 5px;
+  display: block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
+  background: rgba(255, 166, 0, 0.322);
+}
+
+.content-map > h3 {
+  margin-bottom: 30px;
+  color: #fb5118;
+  font-size: 25px;
+}
+.wrapper-form {
   width: 100%;
-  bottom: 0;
-  height: 100px;
+  margin: 4% auto 0;
 }
-.contenu-footer {
-  align-items: right;
+.container-horaire {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container-horaire > .titre-horaire > h3 {
   color: white;
+  font-weight: bold;
+  grid-area: jour;
+}
+.titre-horaire {
+  background: #fb5118;
+  text-align: center;
+  margin: 10px 0;
+  padding: 5px 0;
+}
+.horaire > .jour {
+  display: flex;
+  justify-content: space-between;
+  background: #fb51184f;
+  padding: 5px 20px;
+  margin: 5px 0;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.input::placeholder {
+  color: white;
+}
+.contact {
+  max-width: 550px;
+  margin: 0 auto;
+  background: rgba(247, 247, 247, 0.185);
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
+  margin-bottom: 10em;
+}
+.contact > h2 {
+  font-weight: bold;
+  color: #fb5118;
+  margin-right: 2%;
+  margin-left: -2%;
+  font-size: 25px;
+}
+iframe {
+  width: 100%;
+  height: auto;
+  min-height: 17em;
+  border: none;
+}
+.entree {
+  display: flex;
+  flex-direction: column;
+  margin-right: 8%;
+}
+.entree,
+.message {
+  width: 44%;
+}
+.entree > .input,
+.message > textarea {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid black;
+  padding: 10px;
+  color: white;
+  width: 100%;
+  outline: none;
+}
+.message > textarea {
+  height: 242px;
+}
+
+.send {
+  width: 100%;
+  background: rgb(255, 102, 0);
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  outline: none;
+}
+
+/*--------------------------*\
+|          MEDIA             |
+\---------------------------*/
+@media (max-width: 580px) {
+  .logo {
+    width: 15%;
+  }
+  .nav ul {
+    max-height: 0px;
+    background: #000;
+  }
+  .menu {
+    max-height: 20em;
+  }
+  nav ul li {
+    width: 100%;
+    padding: 24px 0;
+    display: none;
+  }
+  .recherche {
+    visibility: hidden;
+  }
+  .deroulant:hover nav ul li {
+    visibility: visible;
+  }
+  .contact {
+    flex-direction: column;
+  }
+  .message > textarea {
+    height: 80px;
+  }
+  .entree,
+  .message {
+    width: 100%;
+  }
 }

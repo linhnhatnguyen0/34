@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+html {
+}
+body {
+  width: 100%;
+  font-family: ;
+  background-color: #ddd;
+}
+/*--------------------------*\
+  |          BANNIERE          |
+  \---------------------------*/
+.Banniere {
+  width: 100%;
+  height: 30em;
+  z-index: -2;
+  box-sizing: border-box;
+}
+.Banniere > img {
+  width: 100%;
+  max-height: 85%;
+  min-height: 85%;
+  box-shadow: 0 0 20px #fb5118;
+}
+.Banniere-content > h2 {
+  z-index: 101;
+  font-size: 70px;
+  font-family: ;
+  color: white;
+}
+/*--------------------------*\
+|             LOGIN         |
+\---------------------------*/
+.wrap-form {
+  width: 600px;
+  box-shadow: 0 0 3px 0 black;
+  background: white;
+  padding: 20px;
+  margin: 8% auto 0;
+  text-align: center;
+  margin-bottom: 100px;
+  max-width: 90%;
+}
+.wrap-form > h1 {
+  color: #fb5118;
+  margin-bottom: 30px;
+}
+.user-box {
+  border-radius: 30px;
+  padding: 10px;
+  margin: 5px 0;
+  width: 38%;
+  border: 1px solid black;
+  outline: none;
+}
+.mail-box {
+  border-radius: 30px;
+  padding: 10px;
+  margin: 5px 0;
+  width: 80%;
+  border: 1px solid black;
+  outline: none;
+}
+.mdp-box {
+  border-radius: 30px;
+  padding: 10px;
+  margin: 5px 0 20px;
+  width: 80%;
+  border: 1px solid black;
+  outline: none;
+}
+.date-nai {
+  text-align: left;
+  margin: 2px 0px 0 50px;
+  line-height: 20px;
+  font-size: 14px;
+  color: rgb(87, 87, 87);
+}
+.birth {
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 160px;
+  height: 35px;
+  font-size: 18px;
+  padding: 0 0 0 20px;
+}
+#année {
+  border: 1px solid black;
+}
+.genre-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 495px;
+  margin: -8px -6px -6px;
+  justify-items: center;
+  text-align: center;
+}
+.genre-h {
+  text-align: left;
+  margin: 2px 0px 0 50px;
+  line-height: 20px;
+  font-size: 14px;
+  color: rgb(87, 87, 87);
+}
+.genre-box {
+  border: solid grey 1px;
+  background-color: white;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 35px;
+  width: 163px;
+  position: relative;
+  margin: 12px 1px 12px;
+  left: 12%;
+  padding: 0;
+  border-radius: 5px;
+}
+.genre-label {
+  box-sizing: border-box;
+  color: #000;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 70px 0 10px;
+  width: 100%;
+  font-size: 18px;
+}
+.radio {
+  position: absolute;
+  margin: 0;
+  right: 10px;
+  height: 30px;
+}
+.btn-sign {
+  color: white;
+  width: 50%;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  background: tomato;
+  outline: none;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.ou {
+  font-weight: bold;
+}
+.oup {
+  color: rgb(20, 20, 156);
+}
+/*--------------------------*\
+|     FLEX/GRID PROD         |
+\---------------------------*/
+.titre-section {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  margin: 30px 5px;
+  color: #fb5118;
+}
+/*--------------------------*\
+|          MEDIA             |
+\---------------------------*/
+@media (max-width: 700px){
+  .genre-wrapper  {
+    flex-direction: column;
+    align-content: center;
+  }
+  .genre-box{
+    margin: 5px 0 0 0;
+    left: 0;
+  }
+  .genre-h{
+    text-align: center;
+    margin: 2px 0px 0 0;
+  }
+  .btn-sign{
+    min-width: 75%;
+  }
+}

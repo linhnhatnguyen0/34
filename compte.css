@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Play", sans-serif;
+}
+html {
+}
+body {
+  width: 100%;
+  font-family: ;
+  background-color: #ddd;
+}
+/*--------------------------*\
+    |          BANNIERE          |
+    \---------------------------*/
+.Banniere {
+  width: 100%;
+  height: 30em;
+  z-index: -2;
+  box-sizing: border-box;
+}
+.Banniere > img {
+  width: 100%;
+  max-height: 85%;
+  min-height: 85%;
+  box-shadow: 0 0 20px #fb5118;
+}
+.Banniere-content > h2 {
+  z-index: 101;
+  font-size: 70px;
+  font-family: ;
+  color: white;
+}
+/*--------------------------*\
+ |             LOGIN         |
+\---------------------------*/
+.wrap-form {
+  width: 300px;
+  box-shadow: 0 0 03px 0 black;
+  background: white;
+  padding: 20px;
+  margin: 8% auto 0;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.wrap-form > h1 {
+  color: #fb5118;
+  margin-bottom: 30px;
+}
+.user-box {
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 80%;
+  border: 1px solid black;
+  outline: none;
+}
+.btn-sign {
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  background: tomato;
+  outline: none;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.ou > a {
+  text-decoration: none;
+}
+.ou {
+  font-weight: bold;
+}
+.oup {
+  color: rgb(20, 20, 156);
+}
+/*--------------------------*\
+  |     FLEX/GRID PROD         |
+  \---------------------------*/
+.titre-section {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  margin: 30px 5px;
+  color: #fb5118;
+}
+/*--------------------------*\
+  |          MEDIA             |
+  \---------------------------*/
