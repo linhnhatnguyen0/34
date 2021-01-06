@@ -7,14 +7,10 @@
 footer {
   width: 100%;
   position: relative;
-  bottom: 0;
-  left: 0;
   background: rgb(26, 26, 26);
-  box-sizing: border-box;
 }
 
-.footer-container {
-  max-width: 95%; 
+.footer-container { 
   margin: auto;
   padding: 20px;
   display: flex;
@@ -46,7 +42,6 @@ footer > .footer-container > .left-content {
 footer > .footer-container > .left-content > .up > p {
   text-align: justify;
   color: white;
-  word-wrap: break-word;
   font-size: 18px;
   font-family: "Play", sans-serif;
 }
@@ -57,10 +52,9 @@ footer > .footer-container > .left-content > .low > div > a > label {
   padding-right: 15px;
 }
 footer > .footer-container > .middle-content {
-  padding-left: 0px;
+  padding-left: 0;
 }
 footer .footer-container .middle-content .theme a {
-  /*9.30*/
   line-height: 20px;
 }
 footer > .footer-container > .right-content > form > input[type="text"] {

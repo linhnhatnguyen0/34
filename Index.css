@@ -29,26 +29,24 @@
   padding-top: 150px;
 }
 .site {
-  color: #fff;
+  color: #fb5118;
   text-transform: uppercase;
   font-family: "MyFont";
   padding: 0 0 100px 0;
 }
-    .site > h1 {
-        font-size: 130px;
-        justify-content: center;
-        display: flex;
-        text-shadow: 0px 10px 15px rgb(109, 81, 29);
-        flex-wrap:;
-        font-family: "Play",sans-serif;
-    }
-    .site > p {
-        font-size: 40px;
-        letter-spacing: 5px;
-        justify-content: center;
-        display: flex;
-        font-family: "Play",sans-serif;
-    }
+.site > h1 {
+  font-size: 130px;
+  justify-content: center;
+  display: flex;
+  text-shadow: 0px 10px 15px rgb(109, 81, 29);
+  flex-wrap: ;
+}
+.site > p {
+  font-size: 40px;
+  letter-spacing: 5px;
+  justify-content: center;
+  display: flex;
+}
 .next {
   font-size: 25px;
   display: flex;
@@ -88,20 +86,18 @@
   overflow: hidden;
 }
 .bas {
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    margin: 50px;
-    font-size: 25px;
-    font-family: 'Jura', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  font-size: 25px;
 }
 a {
-    text-decoration: none;
-    color: white;
-    justify-content: right;
-    z-index: 1;
-    position: relative;
-    font-family: 'Jura', sans-serif;
+  text-decoration: none;
+  color: white;
+  justify-content: right;
+  z-index: 1;
+  position: relative;
 }
 .right-part a::before {
   content: "";
@@ -109,7 +105,7 @@ a {
   height: 1px;
   position: absolute;
   background: white;
-  left: -100%;
+  left: -102%;
   top: +95%;
   z-index: -1;
   transition: 0.5s;
@@ -120,6 +116,14 @@ a {
 .right-part a:hover::before {
   left: 0;
 }
+@media screen and (max-width: 1260px) {
+  .right-part,
+  .left-part {
+    background: rgba(0, 0, 0, 0.281);
+    padding: 0.2em;
+    border-radius: 5px;
+  }
+}
 @media (max-width: 1000px) {
   .site > h1 {
     font-size: 80px;
@@ -128,31 +132,38 @@ a {
     font-size: 30px;
     letter-spacing: 4px;
   }
-    .bas {
-        font-size: 15px;
-        font-family: 'Jura', sans-serif;
-    }
+  .bas {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .btn-accueil::before {
+    display: none;
+  }
+  .btn-accueil {
+    color: #fb5118;
+    border: #fb5118 2px solid;
+    background: rgb(255, 255, 255);
+  }
 }
 @media (max-width: 600px) {
   .site > h1 {
     font-size: 60px;
   }
-    .site > p {
-        font-size: 20px;
-        letter-spacing: 4px;
-        font-family: 'Jura', sans-serif;
-    }
+  .site > p {
+    font-size: 20px;
+    letter-spacing: 4px;
+  }
   .next {
     font-size: 20px;
   }
   .left-part {
     display: none;
-
   }
-    .bas {
-        justify-content: center;
-        font-size: 15px;
-    }
+  .bas {
+    justify-content: center;
+    font-size: 15px;
+  }
 }
 @media (max-width: 450px) {
   .site > h1 {
