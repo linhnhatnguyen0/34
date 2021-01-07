@@ -23,23 +23,27 @@
         <header>
             <nav class="navbar">
                 <div class="logo"></div>
-                <span class="hamburger"><label id="hamburger">&#9776</label></span>
-                <span class="cross"><label id="cross">&#10006</label></span>
+                <span class="hamburger"><label id="hamburger">&#9776;</label></span>
+                <span class="cross"><label id="cross">&#10006;</label></span>
                 <ul>
-                    <li id="home"><a href="Index.html"> Home </a></li>
-                    <li id="Shop"><a href="Shop.html"> Shop <span></span></a>
-                        <ul id="dropdown" role="menu">
+                    <li id="home"><a href="Index.html"><span> <i class="fas fa-home" style="padding-right: 15px;"></i></span> Index </a></li>
+                    <li id="Shop"><a href="Shop.html"> <span><i class="fas fa-store-alt" style="padding-right: 15px;"></i></span>Boutique</a>
+                        <ul class="dropdown" role="menu">
                             <li><a href="Nano.html"> Nanites</a></li>
-                            <li><a href="Prothese.html"> Prothèse</a></li>
+                            <li><a href="Prothese.html"> Prothèses</a></li>
                             <li><a href="organe.html"> Organes</a></li>
                         </ul>
                     </li>
-                    <li id="compte"><a href="compte.html"> Login </a></li>
-                    <li id="signup"><a href="sign.html">Sign</span></a></li>
+                    <li id="compte"><a href="compte.html"><span><i class="far fa-user" style="padding-right: 15px;"></i></span> Compte </a>
+                        <ul class="dropdown" role="menu">
+                            <li><a href="compte.html">Se connecter</a></li>
+                            <li><a href="sign.html">S'inscrire</a></li>
+                        </ul>
+                    </li>
                 </ul>
                 <div class="search">
                     <input type="text" placeholder="Recherche...">
-                    <span class="loupe"><i class="fas fa-search"></i></span>
+                    <button class="loupe"><i class="fas fa-search"></i></button>
                 </div>
             </nav>           
         </header>
@@ -176,8 +180,10 @@
                </div>
                <div class="middle-content">
                     <div class="theme">Nos services </div>
-                    <div> <a href="Contact.html">Nous trouver</a></div>
-                    <div> <a href="about.html">En savoir plus</a></div>
+                        <div> <a href="Contact.html">Nous trouver</a></div>
+                        <div> <a href="about.html">En savoir plus</a></div>
+                        <div> <a href="#">Rapport</a></div>
+                        <div> <a href="#">Powerpoint</a></div>
                </div>
                <div class="right-content">
                    <div class="theme">Subscribe us</div>
@@ -185,9 +191,9 @@
                     <input type="text" name="email" placeholder="Entrer votre adresse mail"  required>
                     <input type="submit" name="" value="Envoyer">
                     <div class="reseaux"> 
-                        <a href="#"><img src="image/fb.webp"width="10%"></a>
-                        <a href="#"><img src="image/Instagram.ico" width="10%"></a>
-                        <a href="#"><img src="image/Twitter.ico" width="10%"></a>
+                        <a href="#"><img src="image/fb.webp" alt="Logo de facebook"></a>
+                        <a href="#"><img src="image/Instagram.ico"  alt="Logo d'instagram'"></a>
+                        <a href="#"><img src="image/Twitter.ico"  alt="Logo de twitter"></a>
                     </div>
                    </form>
                </div>
@@ -196,40 +202,40 @@
         <div class="bas">
             <p>Copyright &#169; 2020 <span>PharmaTech</span> by Antoine & Alexandre</p>
         </div>
-        <script>
-            let hamburger = document.querySelector(".hamburger");
-            let cross = document.querySelector(".cross");
-            let ul = document.querySelector("ul");
-     
-            hamburger.onclick = () =>{
-                hamburger.style.opacity = 0;
-                hamburger.style.visibility = "hidden";
-                cross.style.opacity = 1;
-                cross.style.visibility = "visible";
-                ul.style.top = "80px";
-            }
-            cross.onclick = () =>{
-                hamburger.style.opacity = 1;
-                hamburger.style.visibility = "visible";
-                cross.style.opacity = 0;
-                cross.style.visibility = "hidden";
-                ul.style.top = "-600px";
-            }
+        <script>  
+            window.addEventListener('scroll', function (e) {
+             // Setup the new requestAnimationFrame()
+            let timeout = window.requestAnimationFrame(function () {
+            // Run our scroll functions
+            let nav = document.querySelector('nav'); /*Selection de la class voulus grace à query*/
+            if (document.querySelector('header').getBoundingClientRect().top !== 0) {
+             nav.classList.add('scroll');
+             } else {
+            nav.classList.remove('scroll');
+             }      
+        });
+            }, false);
         </script>
+           <script>
+             let hamburger = document.querySelector(".hamburger");
+             let cross = document.querySelector(".cross");
+             let ul = document.querySelector("ul");
+      
+             hamburger.onclick = () =>{
+                 hamburger.style.opacity = 0;
+                 hamburger.style.visibility = "hidden";
+                 cross.style.opacity = 1;
+                 cross.style.visibility = "visible";
+                 ul.style.top = "80px";
+             }
+             cross.onclick = () =>{
+                 hamburger.style.opacity = 1;
+                 hamburger.style.visibility = "visible";
+                 cross.style.opacity = 0;
+                 cross.style.visibility = "hidden";
+                 ul.style.top = "-600px";
+             }
+         </script>
     </body>
-    <script>  
-       window.addEventListener('scroll', function (e) {
-        // Setup the new requestAnimationFrame()
-       let timeout = window.requestAnimationFrame(function () {
-       // Run our scroll functions
-       let nav = document.querySelector('nav'); /*Selection de la class voulus grace à query*/
-       if (document.querySelector('header').getBoundingClientRect().top !== 0) {
-        nav.classList.add('scroll');
-        } else {
-       nav.classList.remove('scroll');
-        }      
-   });
-       }, false);
-   </script>
 </html>
 

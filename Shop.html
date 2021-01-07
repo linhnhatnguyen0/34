@@ -23,24 +23,28 @@
         <header>
             <nav class="navbar">
                 <div class="logo"></div>
-                <span class="hamburger"><label id="hamburger">&#9776</label></span>
-                <span class="cross"><label id="cross">&#10006</label></span>
+                <span class="hamburger"><label id="hamburger">&#9776;</label></span>
+                <span class="cross"><label id="cross">&#10006;</label></span>
                 <ul>
-                    <li id="home"><a href="Index.html"> Home </a></li>
-                    <li id="Shop"><a href="#"> Shop <span></span></a>
-                        <ul id="dropdown" role="menu">
+                    <li id="home"><a href="Index.html"><span> <i class="fas fa-home" style="padding-right: 15px;"></i></span> Index </a></li>
+                    <li id="Shop"><a href="#"> <span><i class="fas fa-store-alt" style="padding-right: 15px;"></i></span>Boutique</a>
+                        <ul class="dropdown" role="menu">
                             <li><a href="Nano.html"> Nanites</a></li>
                             <li><a href="Drone.html"> Assistances</a></li>
                             <li><a href="Prothese.html"> Prothèses</a></li>
                             <li><a href="organe.html"> Organes</a></li>
                         </ul>
                     </li>
-                    <li id="compte"><a href="compte.html"> Login </a></li>
-                    <li id="signup"><a href="sign.html">Sign</span></a></li>
+                    <li id="compte"><a href="compte.html"><span><i class="far fa-user" style="padding-right: 15px;"></i></span> Compte </a>
+                        <ul class="dropdown" role="menu">
+                            <li><a href="compte.html">Se connecter</a></li>
+                            <li><a href="sign.html">S'inscrire</a></li>
+                        </ul>
+                    </li>
                 </ul>
                 <div class="search">
                     <input type="text" placeholder="Recherche...">
-                    <span class="loupe"><i class="fas fa-search"></i></span>
+                    <button class="loupe"><i class="fas fa-search"></i></button>
                 </div>
             </nav>           
         </header>
@@ -56,12 +60,12 @@
                 <div class="article">
                     <div class="article-inner">
                         <div class="front">
-                            <img src="prod/armX.jpeg" alt="" />
+                            <a href="Prothese.html"><img src="prod/armX.jpeg" alt="Image de prothèse, face avant de la catégorie Prothèse" /></a>
                         </div>
                         <div class="back">
                             <div class="descriptif-cat">
                                 <div class="revert-img">
-                                    <a href="Prothese.html"><img src="image/tech1.jpeg"></a>
+                                    <a href="Prothese.html"><img src="image/tech1.jpeg" alt="Background 100vh d'accueil"></a>
                                 </div>
                             </div>
                         </div>
@@ -70,12 +74,12 @@
                 <div class="article">
                     <div class="article-inner">
                         <div class="front">
-                            <img src="prod/lungs.jpeg" alt="" />
+                            <a href="organe.html"><img src="prod/lungs.jpeg" alt="Image de poumon mechanique, face avant de la catégorie Organes" /></a>
                         </div>
                         <div class="back">
                             <div class="descriptif-cat">
                                 <div class="revert-img">
-                                    <a href="organe.html"><img src="image/tech2.jpeg"></a>
+                                    <a href="organe.html"><img src="image/tech2.jpeg" alt="Image de fond, face arrière de la catégorie organe"></a>
                                 </div>
                             </div>
                             
@@ -85,12 +89,12 @@
                 <div class="article">
                     <div class="article-inner">
                         <div class="front">
-                            <img src="prod/drone.jpeg" alt="" />
+                            <a href="Drone.html"><img src="prod/drone.jpeg" alt="Image de drone, face avant de la catégorie Assistances" /></a>
                         </div>
                         <div class="back">
                             <div class="descriptif-cat">
                                 <div class="revert-img">
-                                    <a href="Drone.html"><img src="image/tech3.jpeg"></a>
+                                    <a href="Drone.html"><img src="image/tech3.jpeg" alt="Image de fond, face arrière de la catégorie Assistance"></a>
                                 </div>
                             </div>
                         </div>
@@ -99,12 +103,12 @@
                 <div class="article">
                     <div class="article-inner">
                         <div class="front">
-                            <img src="prod/heal.jpeg" alt="" />
+                            <a href="Nano.html"><img src="prod/heal.jpeg" alt="Image de nanobot, face avant de la catégorie Nano-Tech" /></a>
                         </div>
                         <div class="back">
                             <div class="descriptif-cat">
                                 <div class="revert-img">
-                                    <a href="Nano.html"><img src="image/tech4.jpeg"></a>
+                                    <a href="Nano.html"><img src="image/tech4.jpeg" alt="Image de fond, face arrière de la catégorie Nano-Tech"></a>
                                 </div>
                             </div>
                         </div>
@@ -118,7 +122,7 @@
             <h2 class="Best">
                 Nos meilleures ventes
             </h2>
-            <section class="apercu">
+            <div class="apercu">
                 <div class="produit">
                     <div class="img-produit" style="background-image: url('prod/heart1.jpeg');"></div>
                     <p class="nom-produit">
@@ -130,7 +134,7 @@
                     <p class="prix-produit">
                         2 499€
                     </p>
-                    <a href="PageProduit/heart.html"><button class="voir-produit">Voir Produit</button></a>
+                    <a href="PageProduit/heart.html" class="voir-produit">Voir Produit</a>
                 </div>
                 <div class="produit">
                     <div class="img-produit" style="background-image: url('prod/lungs.jpeg')"></div>
@@ -143,7 +147,7 @@
                     <p class="prix-produit">
                         3 599€
                     </p>
-                    <a href="PageProduit/lungs.html"><button class="voir-produit">Voir Produit</button></a>
+                    <a href="PageProduit/lungs.html" class="voir-produit">Voir Produit</a>
                 </div>
                 <div class="produit">
                     <div class="img-produit" style="background-image: url('prod/arm2.jpg')"></div>
@@ -156,7 +160,7 @@
                     <p class="prix-produit">
                         5 100€
                     </p>
-                <a href="PageProduit/arm4.html"><button class="voir-produit">Voir Produit</button></a>
+                    <a href="PageProduit/arm4.html" class="voir-produit">Voir Produit</a>
                 </div>
                 <div class="produit">
                     <div class="img-produit" style="background-image: url('prod/legs2.jpeg')"></div>
@@ -169,7 +173,7 @@
                     <p class="prix-produit">
                         6 899€
                     </p>
-                <a href="PageProduit/legs.html"><button class="voir-produit">Voir Produit</button></a>
+                    <a href="PageProduit/legs.html" class="voir-produit">Voir Produit</a>
                 </div>
                 <div class="produit">
                     <div class="img-produit" style="background-image: url('prod/drone.jpeg')"></div>
@@ -182,7 +186,7 @@
                     <p class="prix-produit">
                         549€
                     </p>
-                <a href="PageProduit/watchX.html"><button class="voir-produit">Voir Produit</button></a>
+                    <a href="PageProduit/watchX.html" class="voir-produit">Voir Produit</a>
                 </div>
                 <div class="produit">
                     <div class="img-produit" style="background-image: url('prod/raven3.jpeg')"></div>
@@ -195,7 +199,7 @@
                     <p class="prix-produit">
                         3 899€
                     </p>
-                <a href="PageProduit/raven.html"><button class="voir-produit">Voir Produit</button></a>
+                    <a href="PageProduit/raven.html" class="voir-produit">Voir Produit</a>
                 </div>
                 <div class="produit">
                     <div class="img-produit" style="background-image: url('prod/nano.jpeg')"></div>
@@ -208,7 +212,7 @@
                     <p class="prix-produit">
                         44€
                     </p>
-                <a href="PageProduit/nano.html"><button class="voir-produit">Voir Produit</button></a>
+                    <a href="PageProduit/nano.html" class="voir-produit">Voir Produit</a>
                 </div>
                 <div class="produit">
                     <div class="img-produit" style="background-image: url('prod/heal.jpeg')"></div>
@@ -221,10 +225,9 @@
                     <p class="prix-produit">
                         75€
                     </p>
-                <a href="PageProduit/heal.html"><button class="voir-produit">Voir Produit</button></a>
+                    <a href="PageProduit/heal.html" class="voir-produit">Voir Produit</a>
                 </div>
-            </section>
-        </section>
+            </div>
         <footer>
             <div class="footer-container">
                <div class="left-content">
@@ -238,10 +241,10 @@
                    <div class="low">
                        <div class="theme">Nous contacter</div>
                        <div class="tel">
-                            <a href="#"><label>&#9990;</label> +356 053 356 152</a>
+                            <a href="#"><span>&#9990;</span> +356 053 356 152</a>
                        </div>
                        <div class="mail">
-                           <a href="#"><label>&#9993;</label> abc@pharmatech.com</a>
+                           <a href="#"><span>&#9993;</span> abc@pharmatech.com</a>
                        </div>
                    </div>
                </div>
@@ -249,16 +252,18 @@
                     <div class="theme">Nos services </div>
                         <div> <a href="Contact.html">Nous trouver</a></div>
                         <div> <a href="about.html">En savoir plus</a></div>
+                        <div> <a href="#">Rapport</a></div>
+                        <div> <a href="#">Powerpoint</a></div>
                     </div>
                <div class="right-content">
                    <div class="theme">Subscribe us</div>
                    <form action="#">
                     <input type="text" name="email" placeholder="Entrer votre adresse mail"  required>
-                    <input type="submit" name="" value="Envoyer">
+                    <input type="submit" value="Envoyer">
                     <div class="reseaux"> 
-                        <a href="#"><img src="image/fb.webp"width="10%"></a>
-                        <a href="#"><img src="image/Instagram.ico" width="10%"></a>
-                        <a href="#"><img src="image/Twitter.ico" width="10%"></a>
+                        <a href="#"><img src="image/fb.webp" alt="Logo de facebook"></a>
+                        <a href="#"><img src="image/Instagram.ico"  alt="Logo d'instagram'"></a>
+                        <a href="#"><img src="image/Twitter.ico"  alt="Logo de twitter"></a>
                     </div>
                    </form>
                </div>
@@ -267,40 +272,40 @@
         <div class="bas">
             <p>Copyright &#169; 2020 <span>PharmaTech</span> by Antoine & Alexandre</p>
         </div>
+        <script>  
+            window.addEventListener('scroll', function (e) {
+             // Setup the new requestAnimationFrame()
+            let timeout = window.requestAnimationFrame(function () {
+            // Run our scroll functions
+            let nav = document.querySelector('nav'); /*Selection de la class voulus grace à query*/
+            if (document.querySelector('header').getBoundingClientRect().top !== 0) {
+             nav.classList.add('scroll');
+             } else {
+            nav.classList.remove('scroll');
+             }      
+        });
+            }, false);
+        </script>
+        <script>
+            let hamburger = document.querySelector(".hamburger");
+            let cross = document.querySelector(".cross");
+            let ul = document.querySelector("ul");
+     
+            hamburger.onclick = () =>{
+                hamburger.style.opacity = 0;
+                hamburger.style.visibility = "hidden";
+                cross.style.opacity = 1;
+                cross.style.visibility = "visible";
+                ul.style.top = "80px";
+            }
+            cross.onclick = () =>{
+                hamburger.style.opacity = 1;
+                hamburger.style.visibility = "visible";
+                cross.style.opacity = 0;
+                cross.style.visibility = "hidden";
+                ul.style.top = "-600px";
+            }
+        </script>
     </body>
-    <script>  
-       window.addEventListener('scroll', function (e) {
-        // Setup the new requestAnimationFrame()
-       let timeout = window.requestAnimationFrame(function () {
-       // Run our scroll functions
-       let nav = document.querySelector('nav'); /*Selection de la class voulus grace à query*/
-       if (document.querySelector('header').getBoundingClientRect().top !== 0) {
-        nav.classList.add('scroll');
-        } else {
-       nav.classList.remove('scroll');
-        }      
-   });
-       }, false);
-   </script>
-   <script>
-       let hamburger = document.querySelector(".hamburger");
-       let cross = document.querySelector(".cross");
-       let ul = document.querySelector("ul");
-
-       hamburger.onclick = () =>{
-           hamburger.style.opacity = 0;
-           hamburger.style.visibility = "hidden";
-           cross.style.opacity = 1;
-           cross.style.visibility = "visible";
-           ul.style.top = "80px";
-       }
-       cross.onclick = () =>{
-           hamburger.style.opacity = 1;
-           hamburger.style.visibility = "visible";
-           cross.style.opacity = 0;
-           cross.style.visibility = "hidden";
-           ul.style.top = "-600px";
-       }
-   </script>
 </html>
 

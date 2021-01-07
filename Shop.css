@@ -81,13 +81,18 @@ body {
   position: relative;
   display: flex;
   flex-wrap: wrap;
+  transition: 1.5s;
 }
 
 .article:hover .article-inner {
   transform: rotateY(180deg);
   transition: 1.5s;
 }
-
+@media screen and (max-width: 880px) {
+  .article:hover .article-inner {
+    transform: none;
+  }
+}
 .article .front,
 .article .back {
   width: 100%;
@@ -172,23 +177,22 @@ body {
   border-radius: 2rem;
 }
 .voir-produit {
-  background: white;
-  padding: 10px 15px;
+  color: white;
+  padding: 14px 25px;
   cursor: pointer;
   border: none;
-  border-radius: 1rem;
-  outline: none;
-  margin: 10px 0;
-  color: white;
   font-family: Montserrat;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 15px;
   background: #fb5118;
-  transition: 0.5s;
+  border-radius: 2rem;
+  position: relative;
+  top: 18px;
 }
 .voir-produit:hover {
   opacity: 0.8;
+  color: white;
 }
 .nom-produit {
   font-size: 25px;
